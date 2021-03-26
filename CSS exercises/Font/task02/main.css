@@ -1,0 +1,35 @@
+body {
+    background-color: aquamarine;
+}
+h1 {
+    font-family: 'Dela Gothic One', cursive;
+}
+* {
+    font-size: 20px;
+    font-weight: bold;
+  
+}
+
+.prvi {
+    font-family: 'Raleway', sans-serif;
+    background-color:cornsilk;
+    color: blueviolet
+}
+.prvi q {
+    font-family: 'Pacifico', cursive;
+}
+.drugi {
+   
+    font-style: oblique;
+}
+.drugi q {
+    font-family: 'Anton', sans-serif;
+}
+.treci {
+ font-style: italic;
+}
+.treci q {
+    font-family: 'Atma', cursive;
+    letter-spacing: 5px;
+    font-weight: 20px;
+}

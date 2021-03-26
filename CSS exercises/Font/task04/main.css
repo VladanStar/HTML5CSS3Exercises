@@ -1,0 +1,12 @@
+.prvi {
+    letter-spacing: 5px;
+     text-align: left;
+    text-indent: 30px;
+}
+.drugi {
+  text-align: right;
+    line-height: 200%;
+}
+.treci {
+    text-align: center;
+}

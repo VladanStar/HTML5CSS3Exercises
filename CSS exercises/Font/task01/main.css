@@ -1,0 +1,24 @@
+body {
+    background-color: aquamarine;
+}
+
+.prvi {
+    font-family: 'Raleway', sans-serif;
+    background-color:cornsilk;
+    color: blueviolet
+}
+.prvi q {
+    font-family: 'Pacifico', cursive;
+}
+.drugi {
+    font-family: 'Indie Flower', cursive;
+}
+.drugi q {
+    font-family: 'Anton', sans-serif;
+}
+.treci {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+.treci q {
+    font-family: 'Atma', cursive;
+}

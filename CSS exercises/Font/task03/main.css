@@ -1,0 +1,8 @@
+.prvi {
+    text-indent: 20px;
+    text-transform: uppercase;
+}
+.drugi {
+    text-transform: lowercase;
+    text-decoration: line-through;
+}
