@@ -1,0 +1,65 @@
+#okvir {
+    width: 1000px;
+    margin: 0px auto;
+}
+#vrh {
+    width: 1000px;
+    height: 80px;
+   background: url("./download3.jpg") repeat-x center top;
+}
+#sredina {
+    width: 1000px;
+}
+#podnozje {
+    width: 1000px;
+    height: 64px;
+    background: url("./download5.jpeg") repeat-x center 0;
+}
+#logo {
+    width: 105px;
+    height: 80px;
+    background: url("./download4.jpg") no-repeat center 0;
+    float: left;
+}
+#logovanje {
+    width: 250px;
+    height: 53px;
+    text-align: right;
+    float: right;
+    padding-top: 5px;
+}
+#meni {
+    width: 150px;
+    height: 300px;
+    float: left;
+} 
+#meni ul.navigacija {
+    margin: 5px;
+    padding:0;
+}
+#meni ul.navigacija li {
+    list-style-type: none;
+    padding: 10px;
+}
+#meni ul.navigacija li a {
+    color: #000333;
+    font-size: 18px;
+    text-decoration: none;
+}
+#sadrzaj {
+    width: 600px;
+    float: left;
+   
+}
+#baneri {
+    width: 190px;
+    height: 360px;  
+    float: right;
+}
+#cistac {
+    clear: both;
+}
+.baner {
+    width: 186px;
+    height: 170px;  
+}
