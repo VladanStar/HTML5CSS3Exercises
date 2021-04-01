@@ -10,3 +10,6 @@
 .treci {
     text-align: center;
 }
+.treci span {
+font-style: italic;
+}

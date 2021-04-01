@@ -1,0 +1,11 @@
+.first {
+    letter-spacing: 5px;
+    text-align: left;
+}
+.second {
+    line-height: 200%;
+    text-align: right;
+}
+.treci {
+    text-align: center;
+}

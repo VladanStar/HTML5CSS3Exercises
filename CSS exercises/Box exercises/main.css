@@ -1,0 +1,19 @@
+#first {
+    background-color: yellow;
+    width: 400px;
+    height: 500px;
+    max-width: 300px;
+    overflow: hidden;
+    display: inline;
+    
+
+}
+#second {
+    background-color: red;
+    width: 600px;
+    height: 300px;
+    max-height: 200px;
+    display: inline;
+    
+}
+    

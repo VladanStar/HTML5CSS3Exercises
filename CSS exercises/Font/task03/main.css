@@ -1,6 +1,7 @@
 .prvi {
     text-indent: 20px;
     text-transform: uppercase;
+    text-decoration: underline;
 }
 .drugi {
     text-transform: lowercase;

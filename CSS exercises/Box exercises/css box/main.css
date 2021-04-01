@@ -1,0 +1,122 @@
+
+div p:nth-child(1){
+background-color: yellow;
+width: 400px;
+height: 500px;
+}
+div p:nth-child(2){
+background-color: red;
+width: 600px;
+height: 300px;
+}
+div p:nth-child(3){
+    background-color: yellow;
+    max-width: 300px;
+    height: 500px;
+    }
+    div p:nth-child(4){
+    background-color: red;
+    width: 600px;
+    max-height: 200px;
+    }
+
+
+#nesto{
+    background-color: gray;
+    width:1600px;
+    height:30%;
+    max-height: 10%;
+    }
+    p{
+    background-color: yellow;
+    border: 5px thick black;
+    }
+    div p:nth-child(1),  div p:nth-child(3){
+        border: red dashed 5px;
+    }
+    div p:nth-child(2){
+        border: green solid 5px;
+        padding: 50px;
+        margin: 40px;
+    }
+    div p:nth-child(4){
+        border: green solid 5px;
+        margin: 0 20px 0 0;
+        width: 300px;
+        display: inline-block;
+    }
+    div p:nth-child(5){
+        border: green solid 5px;
+        margin: 0 20px 0 0;
+        width: 400px;
+        display: inline-block;
+        visibility: hidden;
+    }
+    div p:nth-child(5):hover{
+        visibility: visible;
+    }
+    div p:nth-child(6){
+        margin: 0 20px 0 0;
+        width: 200px;
+        display: inline-block;;
+        box-shadow: 5px 5px 5px red;
+        border-radius: 10px 15px 8px 12px;
+    }
+    div p:nth-child(6):hover{
+        visibility: hidden;
+    }
+    
+/*
+    p{
+        background-color: yellow;
+        width: 300px;
+        height: 300px;
+        display: inline-block;
+    }
+    div p:nth-child(1){
+        display: inline-block;
+
+    }
+    div p:nth-child(1):hover{
+        visibility: hidden;
+    }
+    body div:nth-child(1){
+
+        width: 960px;
+        text-align:  center;
+    }
+    body div:first-child{
+        box-shadow: 5px 5px 5px red;
+    }
+    div
+    {
+        margin: 0 auto;
+        background-color: green;
+        width: 1960px;
+    }
+    h1 
+    {
+    margin: 50px 0;
+    padding: 50px 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    ul {
+        list-style: circle;
+    }
+ul:nth-of-type(2){
+        list-style: square;
+    }
+    ol{
+        list-style-type: upper-alpha;
+    }
+    ol:nth-of-type(2){
+        list-style-type: upper-roman;
+    }
+    ul:nth-of-type(3), ul:nth-of-type(4){
+        list-style-image: url('plus-64x64.png');
+        width: 200px;
+    }
+    ul:nth-of-type(4){
+        list-style-position: inside;
+    }
+    */

@@ -1,0 +1,74 @@
+
+@font-face {
+    font-family: 'antonregular';
+    src: url('font/webfontkit-20180425-093621/anton-regular-webfont.woff2') format('woff2'),
+         url('font/webfontkit-20180425-093621/anton-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.div {
+    width: 1200px;
+}
+
+h1 {
+    width: 960px;
+    margin: 50px auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    background-color: antiquewhite;
+    color: blueviolet;
+    font-family: antonregular;
+    box-shadow: 5px 5px 5px gray;
+    border-radius: 20px;
+}
+
+#first {
+    background-color: yellow;
+    width: 400px;
+    height: 500px;
+    max-width: 300px;
+    overflow: hidden;
+    display: inline-block;
+    margin-right: 20px;
+    padding-right: 0px;
+}
+
+#second {
+    background-color: red;
+    width: 600px;
+    height: 300px;
+    max-height: 200px;
+    overflow: scroll;
+    display: inline-block;
+    margin-right: 20px;
+    padding-right: 0px;
+}
+
+.border {
+    background-color: yellow;
+    border-width: 5px; 
+}
+
+.middle {
+    border: green solid;
+    width: 400px; 
+    margin-right: 20px;
+    display: none;
+    
+}
+
+.first-last {
+    border-style: dashed;
+    border-color: red;
+    margin-right: 20px;
+}
+
+.first {
+    width: 300px;
+}
+.last {
+    width: 200px;
+    visibility: hidden;
+}
