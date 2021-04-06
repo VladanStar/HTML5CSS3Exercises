@@ -1,0 +1,53 @@
+div {
+  width: 200px;
+  height: 200px;
+}
+#firstDiv {
+  background-color: rgb(85, 85, 199);
+}
+#secondDiv {
+  background-color: rgb(145, 167, 214);
+}
+#thirdDiv {
+  background-color: #bdc3e7;
+}
+#firstDiv1 {
+  background-color: rgb(85, 85, 199);
+  position: relative;
+}
+#secondDiv2 {
+  background-color: rgb(145, 167, 214);
+  position: relative;
+  left: 100px;
+  bottom: 100px;
+}
+#thirdDiv3 {
+  background-color: #bdc3e7;
+  position: relative;
+  left: 200px;
+  bottom: 100px;
+}
+#firstDiv4 {
+  background-color: rgb(85, 85, 199);
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  z-index: 3;
+}
+#secondDiv5 {
+  background-color: rgb(145, 167, 214);
+  position: absolute;
+  right: 100px;
+  top: 100px;
+  z-index: 2;
+}
+#thirdDiv6 {
+  position: absolute;
+  background-color: #bdc3e7;
+  right: 200px;
+  top: 200;
+}
+#divDiferent {
+  position: relative;
+  width: 100%;
+}
