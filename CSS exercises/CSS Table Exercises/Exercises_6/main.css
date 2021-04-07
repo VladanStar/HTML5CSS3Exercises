@@ -1,0 +1,79 @@
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Mukta, sans-serif;
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  color: darkblue;
+  font-size: 0.9rem;
+  background-color:lightblue;
+}
+
+table {
+  border-collapse: collapse;
+  box-shadow: 0 5px 10px burlywood;
+  background-color: white;
+  text-align: left;
+  overflow: hidden;
+}
+  thead {
+    box-shadow: 0 5px 10px lightblue;
+  }
+
+  th {
+    padding: 1rem 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-size: 0.7rem;
+    font-weight: 900;
+  }
+
+  td {
+    padding: 1rem 2rem;
+  }
+
+  a {
+    text-decoration: none;
+    color: blueviolet;
+  }
+
+  .status {
+    border-radius: 20 px 20px 20px 20px;
+    background-color:lightpink;
+    padding: 0.2rem 1rem;
+    text-align: center;
+  }
+    pending {
+      background-color: blue;
+      color:lightsalmon;
+    }
+
+    paid {
+      background-color: indigo;
+      color:gold;
+    }
+
+    unpaid {
+      background-color: goldenrod;
+      color: green;
+    }
+  
+
+  .amount {
+    text-align: right;
+  }
+
+
+  tr:nth-child(even) {
+    background-color: rgb(226, 245, 199);
+  }
+
