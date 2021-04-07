@@ -1,0 +1,28 @@
+table {
+  border-collapse: collapse;
+  width: 80%;
+  margin: 20px auto;
+  padding: 15px;
+  font-size: 18px;
+  font-style: oblique;
+  box-shadow: 10px 10px yellowgreen;
+  border-radius: 20px 20px 0px 15px;
+}
+h1 {
+    text-align: center;
+    font-style: oblique;
+    color: darkblue;
+}
+th,
+td {
+  border: 2px solid greenyellow;
+}
+th {
+  text-align: center;
+  background-color: dodgerblue;
+  color: white;
+}
+td:active {
+  background-color: blueviolet;
+  color: burlywood;
+}
