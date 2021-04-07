@@ -20,3 +20,11 @@ th, td {
     padding: 20px;
     opacity: 0.9;
 }
+th:active, td:active {
+color: darkblue;
+background: thistle;
+font-weight: bolder;
+}
+td:hover {
+    cursor: pointer;
+}
