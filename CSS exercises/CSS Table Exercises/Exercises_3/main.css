@@ -24,6 +24,8 @@ td {
 }
 td:hover {
   background: goldenrod;
+  color: darkblue;
+  font-weight: bolder;
 }
 td:active {
   font-weight: bold;
