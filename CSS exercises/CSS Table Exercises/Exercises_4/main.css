@@ -1,0 +1,22 @@
+body {
+    background: url(./grass.jpg) no-repeat chartreuse;
+    background-size: cover;
+
+}
+table, th, td {
+    width: 80%;
+    margin: auto;
+    border: 1px solid white;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 30px;
+    table-layout: fixed;
+    background:blue;
+    opacity: 0.5;
+    color: white;
+    margin-top: 100px;
+}
+th, td {
+    padding: 20px;
+    opacity: 0.9;
+}
