@@ -1,0 +1,43 @@
+p::before {
+  content: "Nesto";
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+}
+p::after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+}
+p::first-letter {
+  font-size: 20px;
+  font-weight: bold;
+}
+p::first-line {
+  text-transform: uppercase;
+}
+/*a:focus {
+  background-color: yellowgreen;
+}
+a:active {
+    color: turquoise;
+}
+
+a:visited {
+    color:red;
+}
+
+p:first-child {
+    background-color: blue;
+    text-transform: uppercase;
+}
+*/
+li:nth-child(even){
+   background-color: blueviolet;
+}
+a:not(.primary){
+    background-color: lawngreen;
+}
