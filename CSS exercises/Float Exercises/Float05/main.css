@@ -1,0 +1,12 @@
+.container {
+  border: solid thin #ccc;
+}
+
+.left-segment {
+  Height: 200px;
+  Width: 200px;
+  Margin-right: 10px;
+  Background-color: #A1ED8E;
+  Float: left;
+}
+
