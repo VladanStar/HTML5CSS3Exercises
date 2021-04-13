@@ -1,0 +1,33 @@
+body {
+  background: #eee;
+}
+.wrapper {
+  background: #fff;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.wrapper::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.service h2,
+.service p {
+  color: #999;
+  margin: 10px 0;
+  text-align: center;
+}
+.service {
+  float: left;
+  background: #eee;
+  width: 29.33%;
+  margin: 1%;
+  padding: 1%;
+  height: 140px;
+}
+.content {
+  padding: 18px;
+  background: #ccc;
+  clear: left;
+}

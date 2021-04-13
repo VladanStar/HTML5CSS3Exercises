@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.6em;
+    padding: 20px;
+    background-color: #c9e3ec;
+}
+div.container {
+    background-color: #FFF;
+    padding: 20px;
+    border: 2px solid #80aab7;
+}
+div.info-box {
+    background-color: #fdedae;
+    border: 2px solid #f1e09c;
+    padding: 0 10px;
+    font-size: 12px;
+    float: right;
+}
+div.footer  {
+    font-weight: bold;
+    background-color: #80aab7;
+    padding: 0 10px;
+    font-size: 12px;
+}
+div.footer p {
+    margin: 0px;
+}
+p.clear-me {
+    clear: right;
+}
+.clearfix::after {
+    content: ".";
+    display: block;
+    height: 0px;
+    clear: both;
+    visibility: hidden;
+}
+.clearfix {
+    display: inline-block;
+}
+/* Hides from IE-mac*/
+*html .clearfix {
+    height: 1%;
+}
+.clearfix {
+    display: block;
+}
