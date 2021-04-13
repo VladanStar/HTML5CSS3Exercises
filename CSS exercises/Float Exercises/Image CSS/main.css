@@ -1,0 +1,17 @@
+/*  Find an image with a wide aspect ratio (e.g. 16:9, 21:9...)
+● Include that image three times on the page
+● Each image should be in a separate row
+● The first image should be 200px high
+● The second image should be 200px wide
+● The third image should be 200px wide and 200px high */
+
+.img1 img {
+  height: 200px;
+}
+.img2 img {
+  width: 200px;
+}
+.img3 img {
+  height: 200px;
+  width: 200px;
+}
