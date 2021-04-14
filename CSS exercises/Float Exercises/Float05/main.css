@@ -1,12 +1,39 @@
-.container {
-  border: solid thin #ccc;
+body {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
-
-.left-segment {
-  Height: 200px;
-  Width: 200px;
-  Margin-right: 10px;
-  Background-color: #A1ED8E;
-  Float: left;
+header {
+  background-color: red;
+}
+main {
+  background-color: greenyellow;
+  flex-grow: 1;
+}
+aside {
+   background-color:  blue;
+   width: 300px;
+}
+footer {
+  background-color: grey;
+}
+header, footer {
+  width: 100%;
+}
+ul {
+  align-items: center;
+  list-style-type: none;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+li:nth-child(even) {
+  background-color: orchid;
+  height: 100px;
+}
+.list-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
