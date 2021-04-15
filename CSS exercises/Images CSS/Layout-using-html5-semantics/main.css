@@ -1,0 +1,152 @@
+/*::::::::::::::::: GLOBAL STYLES :::::::::::::::::*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/*::::::::::::::::: LAYOUT STYLES :::::::::::::::::*/
+.main-container {
+  width: 960px;
+  margin: 0 auto;
+}
+nav {
+  width: 100%;
+  height: auto;
+  padding: 10px 0;
+  margin-bottom: 5px;
+  background-color: rgb(202, 93, 93);
+}
+nav ul {
+  position: relative;
+  top: 0;
+  left: 0;
+  clear: both;
+  overflow: hidden;
+  list-style-type: none;
+  float: right;
+}
+.main {
+  position: relative;
+}
+.container {
+  position: relative;
+}
+.mainImg {
+  width: 100%;
+}
+article {
+  max-width: 300px;
+  max-height: 400px;
+  float: left;
+  margin: 15px 15px 0 5px;
+}
+
+.artImg {
+  width: 300px;
+  height: 200px;
+  display: inline-block;
+  text-align: center;
+}
+aside {
+  width: 300px;
+  height: 400px;
+  float: left;
+  margin: 20px 20px 0 0;
+}
+.side-bar {
+  width: 250px;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+footer {
+  width: 100%;
+  background-color: #2d3e50;
+}
+/*::::::::::::::::: SPECIFIC STYLES :::::::::::::::::*/
+
+nav li {
+  float: left;
+  padding-right: 2rem;
+  padding-bottom: 5px;
+  overflow: hidden;
+}
+
+nav li a {
+  font-size: 1.5rem;
+  padding: 5px;
+  display: block;
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.mainImg img {
+  width: 100%;
+}
+
+.red {
+  background-color: red;
+}
+.blue {
+  background-color: blue;
+}
+.green {
+  background-color: green;
+}
+.yellow {
+  background-color: yellow;
+}
+.placeHold {
+  line-height: 200px;
+  margin: auto;
+  color: white;
+  font-size: 2rem;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.side-bar ul {
+  list-style: none;
+  padding: 20px 0 5px 5px;
+  background-color: rgb(228, 228, 0);
+}
+.side-bar ul li {
+  margin-bottom: 10px;
+  padding: 0 0 5px 5px;
+  border-bottom: 1px solid rgb(148, 148, 28, 0.4);
+}
+.side-bar a {
+  padding: 5px;
+  text-decoration: none;
+  text-align: left;
+  text-indent: none;
+  color: rgb(34, 34, 34);
+}
+footer p {
+  color: white;
+  width: 960px;
+  margin: 0 auto;
+  padding: 1rem 0;
+  text-align: left;
+}
+/*::::::::::::::::: HELPER CLASSES :::::::::::::::::*/
+nav li a:hover {
+  position: relative;
+  top: 5px;
+  left: 5px;
+  border-radius: 5px;
+  font-weight: bold;
+  background-color: rgb(255, 255, 255);
+  color: rgb(202, 93, 93);
+}
+.side-bar a:hover {
+  color: rgb(236, 112, 40);
+}
+.clearfix::before,
+.clearfix::after {
+  content: "";
+  display: block;
+}
+.clearfix::after {
+  clear: both;
+}

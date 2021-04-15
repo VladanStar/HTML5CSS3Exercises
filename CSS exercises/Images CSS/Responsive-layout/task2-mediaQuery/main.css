@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  min-width: 270px;
+  width: 90%;
+  padding: 5px;
+  margin: 0 auto;
+}
+.logo {
+  margin: 30px auto;
+  text-align: center;
+  font-size: 50px;
+}
+.image-wrapp {
+  padding: 15px 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.image-wrapp img {
+  width: 100%;
+}
+nav {
+  width: 100%;
+  margin: 20px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px 5px 0 0;
+}
+nav a {
+  text-decoration: none;
+  padding: 20px 0;
+  display: block;
+  font-size: 25px;
+  color: black;
+}
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+nav ul li {
+  border-bottom: 1px solid #ccc;
+}
+nav ul li:hover {
+  background-color: #428bca;
+}
+nav ul li a:hover {
+  color: #fff;
+}
+
+main {
+  width: 100%;
+}
+
+article {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px 10px 20px 10px;
+  margin-bottom: 40px;
+  font-size: 25px;
+}
+article img {
+  width: 100%;
+  padding-bottom: 30px;
+}
+
+@media screen and (min-width: 570px) {
+  header {
+    position: relative;
+    overflow: hidden;
+  }
+  .logo {
+    float: left;
+    margin: 0;
+  }
+  nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    margin: 10px 0 0;
+    border: none;
+  }
+  nav ul {
+    float: right;
+  }
+  nav ul li {
+    float: left;
+    border: none;
+  }
+  nav ul li:hover {
+    border-radius: 5px;
+  }
+  nav ul li a {
+    padding: 10px;
+  }
+
+  .image-wrapp {
+    clear: both;
+    margin-top: 100px;
+    margin-bottom: 40px;
+  }
+
+  article img {
+    float: left;
+    width: 40%;
+    margin-right: 15px;
+    padding-bottom: 0;
+  }
+  .clearfix::before,
+  .clearfix::after {
+    content: "";
+    display: block;
+  }
+  .clearfix::after {
+    clear: both;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .container {
+    width: 65%;
+  }
+  .image-wrapp {
+    padding: 20px;
+  }
+  article {
+    width: 33%;
+    margin: 15px 0;
+    border: none;
+    float: left;
+  }
+
+  article img {
+    float: none;
+    width: 100%;
+    margin: 0;
+  }
+}

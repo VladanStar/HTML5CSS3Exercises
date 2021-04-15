@@ -1,0 +1,48 @@
+/* Background
+● Create a page with a main title
+● Add a couple of subheadings
+● After each subheading, add a single paragraph with some text
+● The page should be long enough for the scrollbar to appear
+Repeat
+● Find an image that can be included as a repeating image on the
+page
+● Use that image to set a background image on the body element
+Attachment
+● Modify the previous example
+● Prevent image from moving while the user scrolls down the
+page --> */
+body {
+  margin: 0px 0px;
+  padding: 0px;
+}
+div::before {
+  content: "";
+  background-image: url(https://zzidan.files.wordpress.com/2014/06/cropped-fudbalska-lopta-brazuka.jpg);
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.7;
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size:50%;
+  background-position: right center;
+}
+div {
+  margin: 0px;
+  padding: 0px;
+   
+}
+h1, h2 {
+  text-align: center;
+}
+div {
+  position: relative;
+}
+
+p {
+  position: relative;
+  color: black;
+}

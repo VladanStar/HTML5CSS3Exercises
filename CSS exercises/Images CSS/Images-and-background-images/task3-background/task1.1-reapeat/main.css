@@ -1,0 +1,27 @@
+/* Background
+● Create a page with a main title
+● Add a couple of subheadings
+● After each subheading, add a single paragraph with some text
+● The page should be long enough for the scrollbar to appear
+Repeat
+● Find an image that can be included as a repeating image on the
+page
+● Use that image to set a background image on the body element */
+body {
+  background-image: url(https://www.popwebdesign.net/popart_blog/wp-content/uploads/2015/11/anton-balaz-slike-zemlje-3d-1.jpg);
+  background-repeat: repeat;
+}
+p {
+  font-size: 20px;
+  font-weight: bold;
+  color: red;
+}
+h1 {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+h2 {
+  color: violet;
+  text-align: center;
+}

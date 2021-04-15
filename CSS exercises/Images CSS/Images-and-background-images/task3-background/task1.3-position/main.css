@@ -1,0 +1,20 @@
+/* Background
+● Create a page with a main title
+● Add a couple of subheadings
+● After each subheading, add a single paragraph with some text
+● The page should be long enough for the scrollbar to appear
+Position
+● Use the previous code structure
+● Remove previously defined styles for the background image
+● Add a new background image. It shouldn’t be repeated
+● Image should be horizontally positioned on the right
+● The image should be positioned vertically in the body center
+● Make it fixed --> */
+body {
+  color: rgb(255, 73, 73);
+  font-weight: bold;
+  background-image: url(https://khabibmcgregor.com/wp-content/uploads/2020/01/tony-ferguson-is-the-type-of-guy-memes.jpg);
+  background-attachment: fixed;
+  background-position: right center;
+  background-repeat: no-repeat;
+}

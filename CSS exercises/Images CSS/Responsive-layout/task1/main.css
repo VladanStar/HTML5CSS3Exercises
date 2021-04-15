@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 60%;
+  margin: 40px auto;
+}
+header {
+  position: relative;
+  width: 100%;
+  _border: 1px dotted red;
+  margin-bottom: 50px;
+}
+.title {
+  position: absolute;
+  top: 22%;
+  left: 15%;
+}
+img {
+  display: block;
+  width: 100px;
+  float: left;
+  border-radius: 50%;
+  margin-right: 40px;
+}
+main {
+  margin: 0 auto;
+}
+section {
+  width: 30%;
+  float: left;
+  border-right: 3px solid black;
+  padding-right: 20px;
+}
+.wrapper {
+  width: 70%;
+  float: left;
+  padding-left: 20px;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}

@@ -1,0 +1,23 @@
+/*  Aligning
+● Modify the previously example
+● Align the first image to the right
+● Align the second image in the center
+● Align the third one to the left */
+
+#img1 {
+  height: 200px;
+  float: right;
+}
+
+#img2 {
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+  clear: both;
+}
+
+#img3 {
+  width: 200px;
+  height: 200px;
+  float: left;
+}
