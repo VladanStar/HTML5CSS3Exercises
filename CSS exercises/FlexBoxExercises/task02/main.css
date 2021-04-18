@@ -1,0 +1,13 @@
+.container {
+    width: 90%;
+    margin: auto;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+article {
+    border: 1px solid black;
+    padding: 20px;
+    flex: 0 0 20%;
+}
