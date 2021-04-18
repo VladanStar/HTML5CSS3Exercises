@@ -1,0 +1,11 @@
+.leva {
+    float: left;
+    margin-right: 10px;
+}
+.desna {
+    float: right;
+    margin-left: 10px;
+}
+p {
+    text-align: justify;
+}

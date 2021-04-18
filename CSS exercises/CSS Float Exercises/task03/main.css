@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    text-align: center;
+}
+header {
+    background-color: orangered;
+    color: white;
+    padding: 30px;
+    height: 90px;
+}
+.left, .right {
+    width: 20%;
+    float: left;
+    background: lightgray;
+    height: 100vh;
+}
+.main {
+    background: navy;
+    padding: 30px;
+    float: left;
+    width: 60%;
+    color: white;
+    height: 100vh;
+}
+main::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+footer {
+    background-color: orangered;
+    color: white;
+    padding: 30px;
+    height: 90px;
+}
+
