@@ -1,0 +1,15 @@
+img {
+    width: 400px;
+    height: 400px;
+}
+img:nth-child(1){
+    float: left;
+}
+img:nth-child(2){
+    float: right;
+}
+section::after{
+    content: "";
+    display: block;
+    clear: both;
+}
