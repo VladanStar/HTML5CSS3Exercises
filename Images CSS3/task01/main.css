@@ -1,0 +1,17 @@
+p {
+  color: #222222
+
+}
+.box {
+  background-image: url(./download.jpg);
+  /* background: pink; */
+  padding: 200px 100px;
+  margin: 100px;
+
+color: white;
+background-repeat: no-repeat;
+background-size: cover;
+}
+body {
+  color: #3747b3;
+}
