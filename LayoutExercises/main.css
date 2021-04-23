@@ -1,0 +1,22 @@
+.prvi {
+  border: 20px solid;
+  background: royalblue;
+  width: 500px;
+  padding: 10px;
+  margin: 120px auto;
+  border-image: url(./download.png) 30 30 repeat;
+  background: url(./360y.jpg);
+  background-size: cover;
+  background: linear-gradient(to right, yellow, red);
+}
+.drugi {
+  border: 20px solid;
+  background: royalblue;
+  width: 500px;
+  padding: 10px;
+  margin: 120px auto;
+  border-image: url(./download.png) 30 30 repeat;
+  background: url(./360y.jpg);
+  background-size: cover;
+  background: repeating-radial-gradient(red, yellow 15%, lightblue 25%);
+}

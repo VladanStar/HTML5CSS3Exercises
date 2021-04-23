@@ -1,0 +1,8 @@
+#prvi {
+    width: 100%;
+    height: 100vh;
+  background: url(https://www.magazinauto.com/wp-content/uploads/2018/09/auto-magazin-srbija-mercedes-benz-gle-sketch--680x365.jpg), url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ59cOzrHBWhrHjBLUzcoT7YrDlk7MSX2ADh5TG7kinJKmW503vKdYuNN0AXK3kPn4yask&usqp=CAU), url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4k38BIqNB0r734-nCRiMk1ljmoWZXJnu30Q&usqp=CAU);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: linear-gradient( to left blue, yellow);
+}
