@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+.naslov {
+  text-align: center;
+}
+.top {
+  overflow: hidden;
+  background-color: gray;
+  width: 100%;
+}
+.top li {
+  text-decoration: none;
+  float: left;
+  display: block;
+  padding: 5px;
+  width: 16%;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.intro {
+  display: flex;
+  margin: 0px auto;
+  width: 80%;
+}
+.style {
+  margin: 3px;
+  padding: 3px;
+  width: 26%;
+}
+@media screen and (max-width:580px) {
+  body {
+    background-color: skyblue;
+  }
+  .intro {
+    flex-wrap: wrap;
+  }
+  .top li {
+    width: 33%;
+  }
+}
+@media screen and (max-width:320px) {
+    .top li {
+        float: none;
+        width: 100%;
+    }    
+}
