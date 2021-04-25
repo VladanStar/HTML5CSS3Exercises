@@ -20,3 +20,8 @@
   background-size: cover;
   background: repeating-radial-gradient(red, yellow 15%, lightblue 25%);
 }
+.paragraf {
+  width: 150px;
+  border: 1px solid ;
+  word-break: keep-all;
+}
