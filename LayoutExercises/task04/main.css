@@ -1,0 +1,41 @@
+body {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+}
+header {
+    background-color: cadetblue;
+    width: 100%;
+}
+main {
+    background-color: chocolate;
+    flex-grow: 1;
+}
+aside {
+    background-color: cyan;
+    width: 300px;
+}
+footer {
+    background-color: darkkhaki;
+    width: 100%;
+}
+ul {
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+li {
+    background-color: darksalmon;
+    border: 1px solid black;
+}
+li:nth-child(even) {
+    background-color: crimson;
+    height: 100px;
+}
+.list-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
