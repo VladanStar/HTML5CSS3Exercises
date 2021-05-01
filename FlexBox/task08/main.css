@@ -1,0 +1,33 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background: #f5f5ff;
+  color: darkgray;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: column-reverse; */
+}
+.flex-element {
+  height: 100px;
+  width: 300px;
+  flex-grow: 1;
+}
+.prvi {
+  background: orange;
+}
+.drugi {
+  background: lightblue;
+}
+.treci {
+  background: violet;
+}
+.container {
+  max-width: 920px;
+  width: 100%;
+  margin: 30px auto;
+  border: 1px solid navy;
+}

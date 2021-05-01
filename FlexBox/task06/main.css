@@ -1,0 +1,32 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background: #f5f5ff;
+    color: darkgray;
+}
+.row {
+    display: flex;
+}
+.flex-element {
+    height: 120px;
+    /* flex-grow: 1; */
+}
+.prvi {
+    background: orange;
+    flex-grow: 1;
+}
+.drugi {
+    background: lightblue;
+    flex-grow: 2;
+}
+.treci {
+    background: violet;
+    flex-grow: 1;
+}
+.container {
+    width: 920px;
+    margin: 30px auto;
+    border: 1px solid navy;
+}

@@ -1,0 +1,43 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background: #f5f5ff;
+  color: darkgray;
+}
+.row {
+  display: flex;
+}
+.flex-element {
+  height: 100px;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+}
+.prvi {
+  background: orange;
+}
+.drugi {
+  background: lightblue;
+}
+.treci {
+  background: violet;
+}
+.cetvrti {
+  background: cornsilk;
+}
+.peti {
+  background: cyan;
+}
+.sesti {
+  background: darkkhaki;
+}
+.container {
+  max-width: 920px;
+  width: 100%;
+  margin: 30px auto;
+  border: 1px solid navy;
+}

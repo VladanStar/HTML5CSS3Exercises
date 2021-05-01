@@ -1,0 +1,24 @@
+#roditelj {
+    display: flex;
+    border: 1px solid red;
+    height: 100px;
+}
+#box-1 {
+background:  red;
+flex: 1 1 200px;
+/* flex-grow: 1;
+flex-shrink: 1;
+flex-basis: 1; */
+}
+#box-2 {
+background: blue;
+flex: 1 5 200px;
+}
+#box-3 {
+background: orange;
+flex: 1 5 200px;
+}
+#box-4 {
+    background: green;
+    flex: 1 5 200px;
+}

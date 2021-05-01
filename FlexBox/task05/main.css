@@ -1,0 +1,16 @@
+body {
+    background: lightskyblue;
+}
+.container {
+    width: 70%;
+    margin: auto;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+article {
+    border: 1px solid red;
+    padding: 30px;
+    flex: 0 0 17%;
+}
