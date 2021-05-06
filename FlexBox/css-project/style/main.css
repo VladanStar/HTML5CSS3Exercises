@@ -1,0 +1,558 @@
+@font-face {
+    font-family: "Roboto-regular";
+    src: url(../assets/fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Roboto-light";
+    src: url(../assets/fonts/Roboto-Light.ttf);
+    font-style: normal;
+    font-weight: lighter;
+}
+
+@font-face {
+    font-family: "Roboto-bold";
+    src: url(../assets/fonts/Roboto-Bold.ttf);
+    font-style: normal;
+    font-weight:bold;
+}
+
+/**************************** placeholder fonts ****************************/
+.placeholder-font {
+    font-size: 1em;
+}
+.placeholder-font::-webkit-input-placeholder {
+    font-family: 'Roboto-regular', Arial, Helvetica, sans-serif;
+}
+  
+.placeholder-font:-ms-input-placeholder {
+    font-family: 'Roboto-regular', Arial, Helvetica, sans-serif;
+}
+  
+.placeholder-font:-moz-placeholder {
+    font-family: 'Roboto-regular', Arial, Helvetica, sans-serif;
+}
+  
+.placeholder-font::-moz-placeholder {
+    font-family: 'Roboto-regular', Arial, Helvetica, sans-serif;
+}
+/***************************************************************************/
+
+
+/* MOBILE VERSION */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    width: 100vw;
+    height: 100vh;
+    overflow-x:hidden;
+    font-family: "Roboto-regular";
+}
+
+h1, h2, h3, h5 {
+    font-family: "Roboto-light";
+}
+
+h4 {
+    font-family: "Roboto-bold";
+    font-size: 1.2em;
+}
+h5 {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+/*
+============================================================================= 
+Header and Nav Section
+=============================================================================  
+*/
+.logo {
+    color: rgb(116,116,116);
+    text-align: center;
+    font-size: 2em;
+    margin-top: 10px;
+}
+.logo span {
+    color: rgb(255,146,0);
+    border: 4px solid rgb(116,116,116);
+    border-right: none;
+    padding-left: 10px;
+}
+.main-list { 
+    width: 95%;
+    text-align: center;
+    margin: 18px auto;
+    background-color: rgb(127,194,247);
+    list-style: none;
+    text-transform: uppercase;
+    
+}
+.main-list li a {
+    text-decoration: none; 
+    color: white;  
+}
+.main-list li {
+    padding: 7px;
+}
+.main-list li:hover a {
+    color:rgb(127,194,247);
+}
+.main-list li:active a {
+    color: rgb(116,116,116);
+}
+.main-list li:hover {
+    background-color: white;
+    border: 1px solid rgb(116,116,116);
+}
+header {
+    width: 100%;
+}
+.header-absolute {
+    background-image: url(../assets/images/banner3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+h1 {
+    color: rgb(239,239,239);
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+.flex-header {
+    padding:22% 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.read-more a {
+    text-decoration: none;
+    color: white;
+}
+.read-more {
+    padding: 10px 40px;
+    background-color: rgb(20,110,180);
+    border-radius: 16px;
+    border: none;
+}
+.read-more:active {
+    position: relative;
+    top: 2px;
+    left: 2px;
+}
+
+/* 
+============================================================================= 
+Main section 
+============================================================================= 
+*/
+
+h2 {
+    color:black;
+    font-size: 2em;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+h3 {
+    color: rgb(83,162,224);
+    font-size: 1.5em;
+    margin: 15px 0;
+}
+
+/********************* WHO WE ARE SECTION *****************************/
+.who-we-are {
+    width: 90%;
+    margin: 40px auto;
+}
+.who-we-are-img {
+    width: 100%;
+}
+.who-we-are p {
+    color: rgb(88,80,80);
+    margin-bottom: 20px;
+}
+.who-we-are-list {
+    color: rgb(119,119,119);
+    list-style-image: url(../assets/icons/arrow_bullet.png);
+    list-style-position: inside;
+}
+.who-we-are-list li {
+    padding: 10px 0;
+}
+.who-we-are article {
+    margin-bottom: 30px;
+}
+
+
+/********************* WHAT PEOPLE SAY SECTION *****************************/
+
+.what-people-says {
+    margin: 80px 50px;
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.profile-container, username-container {
+    float: left;
+}
+.people-article p {
+    clear: both;
+    line-height: 30px;
+    color: white;
+    text-align: left;
+    padding: 5px 15px 30px 15px;
+}
+.people-article {
+    background-color: rgb(127,194,247);
+    margin-bottom: 10px;
+    width: 100%;
+}
+.profile-photo {
+    width: 14vh;
+    border-radius: 50%;
+    padding: 3px;
+    border: 2px solid white;
+    margin: 30px 10px 5px 10px;
+}
+.username-container {
+    padding-top: 60px;
+    font-weight: bold;
+}
+.stars {
+    width: 12vh;
+}
+
+/*****************************GET IN TOUCH SECTION **************************/
+
+.get-in-touch {
+    width: 100%;
+    margin: 50px 0;
+}
+.contact-us-flex article {
+    width: 50%;
+    height: 25vh;
+    text-align: center;
+    color: rgb(244,239,243);
+}
+.contact-us-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.green-contact {
+    background-color: rgb(44,221,152);
+}
+.pink-contact {
+    background-color: rgb(255,79,129);
+}
+.blue-contact {
+    background-color: rgb(51,105,230);
+}
+.house-contact {
+    background-color: rgb(127,194,247);
+}
+.house-img {
+    _width: 100%;
+    height: 100%;
+    padding: 0;
+}
+#main-house {
+    padding: 0;
+}
+.icon {
+    width: 2vh;
+    margin-right: 12px;
+    margin-top: 15px;
+}
+.phone-icon, .email-icon, .map-icon {
+    width: 2vh;
+    margin-top:2px;
+}
+.center-box {
+    text-align: center;
+    padding: 45px 0;
+}
+.center-box h4 {
+    padding-bottom: 20px;
+}
+.center-box p {
+    padding-bottom: 10px;
+}
+.address-paragraph {
+    padding: 0 25px;
+    line-height: 4vh;
+}
+iframe {
+    width: 100%;
+}
+
+/*************************************MAIL US SECTION *******************************/
+.form-section {
+    width: 95%;
+    margin: 50px auto;
+}
+form label {
+    display: block;
+}
+label input, textarea {
+    width: 100%;
+    margin: 5px 0;
+    padding: 5px;
+    border: 1px solid gray;
+}
+label input:focus, textarea:focus {
+    outline-color: rgb(159,204,238);
+    background-color: rgb(238,238,238);
+}
+.submit-button {
+    background-color: rgb(255,152,1);
+    color: white;
+    padding: 7px 27px;
+    border: none;
+}
+.submit-button:active {
+    position: relative;
+    top: 2px;
+    left: 2px;
+    border: none;
+}
+
+/* 
+============================================================================= 
+Footer 
+============================================================================= 
+*/
+
+footer {
+    background-color: rgb(33,33,33);
+    color: white;
+    width: 100%;
+    padding: 8vh;
+}
+.footer-list li a {
+    text-decoration: none;
+    color: white;
+}
+.footer-list li {
+    list-style: none;
+    padding-right: 2vh;
+    font-size: 0.9em;
+}
+.footer-list {
+    display: flex;
+    justify-content:center;
+}
+
+.trade-mark {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0.9em;
+}
+.footer-list li:hover a {
+    color: rgb(255,152,1);
+}
+
+/******************************** CUBES **********************************/
+.container {
+    padding:15px;
+}
+.lines {
+    width: 125px;
+    height: 21px;
+    position: relative;
+    margin: 0 auto;
+}
+.lines::after, .lines::before{
+    content: "";
+    position: absolute;
+    margin: auto;
+    height: 2px;
+    background: black;
+    width: 45px;
+    top:45%;
+}
+.lines::after {
+    left:0;
+}
+.lines::before {
+    right:0;
+}
+.cube {
+    height: 20px;
+    width: 20px;
+    border: 2px solid black;
+    left:0;
+    right: 0;
+    top:0;
+    bottom:0;
+    margin:auto;
+    transform: rotate(45deg);
+}
+
+
+@media only screen and (min-width: 768px) {
+/*
+============================================================================= 
+Header and Nav Section
+=============================================================================  
+*/
+.header-absolute {
+    background-image: none;
+}
+header {
+    background-image: url(../assets/images/banner3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo {
+    display: inline-block;
+    text-align: left;
+    margin: 0;
+    padding: 20px;
+    color: white;
+}
+.logo span {
+    border-color: white;
+}
+nav {
+    float: right;
+    padding-right: 20px;
+}
+.main-list {
+    width: fit-content;
+    background-color: transparent;
+}
+.main-list li {
+    display: inline-block;   
+}
+.main-list li:hover {
+    background-color: transparent;
+    border: none;
+}
+
+/* 
+============================================================================= 
+Main section 
+============================================================================= 
+*/
+
+/*****************WHO WE ARE SECTION *********************/
+.article-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.article-flex article {
+    width: 50%;
+    padding-right: 30px;
+}
+.article-flex article:last-child {
+    width: 100%;
+}
+
+/************************** WHAT PEOPLE SAY SECTION*************************/
+
+.people-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+}
+    
+.people-article {
+    width: 49%;
+}
+
+/*********************** GET IN TOUCH **************************/
+
+.center-box {
+    padding: 60px 0;
+}
+.form-section { 
+    padding: 0 50px;
+}
+.flex-input {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.input-type {
+    width: 32%;
+}
+.input-type input, textarea {
+    padding: 10px;
+}
+
+
+/********************** CUBES *******************/
+
+.lines {
+    width: 165px;
+}
+.lines::after, .lines::before {
+    width: 65px;
+}
+
+}
+
+
+@media only screen and (min-width: 1200px) {
+
+/* 
+============================================================================= 
+Main section 
+============================================================================= 
+*/
+.article-flex article {
+    width: 30%;
+    padding-right: 0;
+}
+.article-flex article:last-child {
+    width: 30%;
+}
+.article-flex {
+    justify-content: space-around;
+    padding: 0 10%;
+}
+h1{
+    font-size: 2.5rem;
+    margin-bottom: 70px;
+}
+.people-flex {
+    justify-content: space-evenly;
+}
+.people-article {
+    width: 31%;
+}
+
+.contact-us-flex article {
+    width: 25%;
+}
+.form-section { 
+    padding: 0 15%;
+}
+.input-type input, textarea {
+    padding: 15px;
+}
+.submit-button {
+    padding: 10px 27px;
+}
+
+/**************************** CUBES ***********************************/
+
+.lines {
+    width: 300px;
+}
+.lines::after, .lines::before {
+    width: 130px;
+}
+
+
+}
