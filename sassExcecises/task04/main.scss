@@ -1,0 +1,8 @@
+$myColor:red;
+h1{
+    $myColor:green !global;
+    color: $myColor;
+}
+p {
+    color: $myColor;
+}
