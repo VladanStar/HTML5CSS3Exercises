@@ -1,0 +1,15 @@
+
+# BEGIN WordPress
+# Директиве (редови) између "BEGIN WordPress" и "END WordPress" су динамички
+# направљене и требало би да буду измењене само преко Вордпресових филтера.
+# Свака измена директива између ових означивача биће преписана.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /centar_za_razvoj/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /centar_za_razvoj/index.php [L]
+</IfModule>
+
+# END WordPress

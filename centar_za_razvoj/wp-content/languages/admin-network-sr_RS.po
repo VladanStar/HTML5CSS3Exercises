@@ -1,0 +1,1471 @@
+# Translation of WordPress - 5.5.x - Development - Administration - Network Admin in Serbian
+# This file is distributed under the same license as the WordPress - 5.5.x - Development - Administration - Network Admin package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-08-12 14:55:13+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: sr_RS\n"
+"Project-Id-Version: WordPress - 5.5.x - Development - Administration - Network Admin\n"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:293
+msgctxt "site"
+msgid "Not spam"
+msgstr "Означи да није непожељан"
+
+#. translators: %s: Number of themes.
+#: wp-admin/network/themes.php:405
+msgid "%s theme will no longer be auto-updated."
+msgid_plural "%s themes will no longer be auto-updated."
+msgstr[0] "%s тема више неће бити аутоматски ажурирана."
+msgstr[1] "%s теме више неће бити аутоматски ажуриране."
+msgstr[2] "%s тема више неће бити аутоматски ажурирано."
+
+#. translators: %s: Number of themes.
+#: wp-admin/network/themes.php:396
+msgid "%s theme will be auto-updated."
+msgid_plural "%s themes will be auto-updated."
+msgstr[0] "%s тема ће бити аутоматски ажурирана."
+msgstr[1] "%s теме ће бити аутоматски ажуриране."
+msgstr[2] "%s тема ће бити аутоматски ажурирано."
+
+#: wp-admin/network/themes.php:225
+msgid "Sorry, you are not allowed to change themes automatic update settings."
+msgstr "Жао нам је, није вам дозвољено да мењате подешавања аутоматског ажурирања тема."
+
+#. translators: %s: Documentation URL.
+#: wp-admin/includes/network.php:628
+msgid "It seems your network is running with Nginx web server. <a href=\"%s\">Learn more about further configuration</a>."
+msgstr "Изгледа да се мрежа покреће на Nginx серверу. <a href=\"%s\">Сазнајте више о даљој поставци</a>."
+
+#: wp-admin/includes/network.php:629
+msgid "https://wordpress.org/support/article/nginx/"
+msgstr "https://wordpress.org/support/article/nginx/"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:475
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:496
+#: wp-admin/includes/class-wp-ms-users-list-table.php:336
+msgid "Y/m/d g:i:s a"
+msgstr "Y/m/d H:i:s"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:278
+msgid "No themes are currently available."
+msgstr "Тренутно нема доступних тема."
+
+#. translators: %s: Number of sites.
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:254
+msgid "Deleted <span class=\"count\">(%s)</span>"
+msgid_plural "Deleted <span class=\"count\">(%s)</span>"
+msgstr[0] "Обрисана <span class=\"count\">(%s)</span>"
+msgstr[1] "Обрисана <span class=\"count\">(%s)</span>"
+msgstr[2] "Обрисана <span class=\"count\">(%s)</span>"
+
+#. translators: %s: Number of sites.
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:247
+msgctxt "sites"
+msgid "Spam <span class=\"count\">(%s)</span>"
+msgid_plural "Spam <span class=\"count\">(%s)</span>"
+msgstr[0] "Непожељна <span class=\"count\">(%s)</span>"
+msgstr[1] "Непожељна <span class=\"count\">(%s)</span>"
+msgstr[2] "Непожељна <span class=\"count\">(%s)</span>"
+
+#. translators: %s: Number of sites.
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:241
+msgid "Mature <span class=\"count\">(%s)</span>"
+msgid_plural "Mature <span class=\"count\">(%s)</span>"
+msgstr[0] "За одрасле <span class=\"count\">(%s)</span>"
+msgstr[1] "За одрасле <span class=\"count\">(%s)</span>"
+msgstr[2] "За одрасле <span class=\"count\">(%s)</span>"
+
+#. translators: %s: Number of sites.
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:235
+msgid "Archived <span class=\"count\">(%s)</span>"
+msgid_plural "Archived <span class=\"count\">(%s)</span>"
+msgstr[0] "Архивирана <span class=\"count\">(%s)</span>"
+msgstr[1] "Архивирана <span class=\"count\">(%s)</span>"
+msgstr[2] "Архивирана <span class=\"count\">(%s)</span>"
+
+#. translators: %s: Number of sites.
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:229
+msgid "Public <span class=\"count\">(%s)</span>"
+msgid_plural "Public <span class=\"count\">(%s)</span>"
+msgstr[0] "Јавна <span class=\"count\">(%s)</span>"
+msgstr[1] "Јавна <span class=\"count\">(%s)</span>"
+msgstr[2] "Јавна <span class=\"count\">(%s)</span>"
+
+#. translators: %s: Number of sites.
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:222
+msgctxt "sites"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "Сва <span class=\"count\">(%s)</span>"
+msgstr[1] "Сва <span class=\"count\">(%s)</span>"
+msgstr[2] "Сва <span class=\"count\">(%s)</span>"
+
+#: wp-admin/network/upgrade.php:31
+msgid "<a href=\"https://wordpress.org/support/article/network-admin-updates-screen/\">Documentation on Upgrade Network</a>"
+msgstr "<a href=\"https://wordpress.org/support/article/network-admin-updates-screen/\">Документација о ажурирању мреже</a>"
+
+#: wp-admin/network/index.php:55
+msgid "<a href=\"https://wordpress.org/support/article/network-admin/\">Documentation on the Network Admin</a>"
+msgstr "<a href=\"https://wordpress.org/support/article/network-admin/\">Документација о управљању мрежом</a>"
+
+#. translators: %s: Number of themes.
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:363
+msgctxt "themes"
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "Доступно ажурирање <span class=\"count\">(%s)</span>"
+msgstr[1] "Доступно ажурирање <span class=\"count\">(%s)</span>"
+msgstr[2] "Доступно ажурирање <span class=\"count\">(%s)</span>"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:614
+msgid "Main"
+msgstr "Главно"
+
+#: wp-admin/network.php:67 wp-admin/network.php:80
+msgid "<a href=\"https://wordpress.org/support/article/tools-network-screen/\">Documentation on the Network Screen</a>"
+msgstr "<a href=\"https://wordpress.org/support/article/tools-network-screen/\">Документација о екрану Мрежа</a>"
+
+#: wp-admin/network.php:66 wp-admin/network.php:79
+msgid "<a href=\"https://wordpress.org/support/article/create-a-network/\">Documentation on Creating a Network</a>"
+msgstr "<a href=\"https://wordpress.org/support/article/create-a-network/\">Документација о прављењу мреже</a>"
+
+#. translators: %s: DO_NOT_UPGRADE_GLOBAL_TABLES
+#: wp-admin/includes/network.php:118
+msgid "The constant %s cannot be defined when creating a network."
+msgstr "Непроменљива %s не може бити одређена приликом прављења мреже."
+
+#: wp-admin/network/sites.php:195
+msgid "You are about to delete the following sites:"
+msgstr "Обрисаћете следеће веб места:"
+
+#: wp-admin/network/site-users.php:248
+msgid "User could not be added to this site."
+msgstr "Корисник није могао бити додат овом веб месту."
+
+#: wp-admin/network/site-new.php:287
+msgid "The username and a link to set the password will be mailed to this email address."
+msgstr "Корисничко име и веза за постављање лозинке ће бити послати на ову адресу е-поште."
+
+#. translators: %s: New network admin email.
+#: wp-admin/network/settings.php:175
+msgid "There is a pending change of the network admin email to %s."
+msgstr "Постоји промена управљачке адресе е-поште мреже у %s која чека."
+
+#: wp-admin/includes/network.php:332
+msgid "Sub-domain Installation"
+msgstr "Инсталирање у поддомену"
+
+#: wp-admin/includes/network.php:301 wp-admin/includes/network.php:319
+msgid "Sub-directory Installation"
+msgstr "Инсталирање у поддиректоријуму"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:849
+msgid "Active Child Theme"
+msgstr "Укључена тема дете"
+
+#: wp-admin/network/site-info.php:193
+msgid "Attributes"
+msgstr "Особине"
+
+#. translators: %s: File size in kilobytes.
+#: wp-admin/network/settings.php:407
+msgid "%s KB"
+msgstr "%s KB"
+
+#. translators: %s: Default network title.
+#: wp-admin/includes/network.php:172
+msgid "%s Sites"
+msgstr "%s веб места"
+
+#. translators: %s: Theme name.
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:581
+msgctxt "theme"
+msgid "Delete %s"
+msgstr "Обриши %s"
+
+#: wp-admin/network/themes.php:101
+msgid "Sorry, you are not allowed to delete themes for this site."
+msgstr "Жао нам је, није вам дозвољено да бришете теме за ово веб место."
+
+#: wp-admin/network/themes.php:14
+msgid "Sorry, you are not allowed to manage network themes."
+msgstr "Жао нам је, није вам управљате темама мреже."
+
+#: wp-admin/network/sites.php:320
+msgid "Sorry, you are not allowed to delete that site."
+msgstr "Жао нам је, није вам дозвољено да обришете то веб место."
+
+#: wp-admin/network/site-themes.php:14
+msgid "Sorry, you are not allowed to manage themes for this site."
+msgstr "Жао нам је, није вам дозвољено да управљате темама за ово веб место."
+
+#: wp-admin/network/site-new.php:17
+msgid "Sorry, you are not allowed to add sites to this network."
+msgstr "Жао нам је, није вам дозвољено да додајете веб места овој мрежи."
+
+#: wp-admin/network/site-info.php:14 wp-admin/network/site-users.php:14
+#: wp-admin/network/site-settings.php:14
+msgid "Sorry, you are not allowed to edit this site."
+msgstr "Жао нам је, није вам дозвољено да уредите ово веб место."
+
+#: wp-admin/network/settings.php:357
+msgid "The email address of the first comment author on a new site."
+msgstr "Адреса е-поште аутора првог коментара на новом веб месту."
+
+#: wp-admin/network/settings.php:353
+msgid "First Comment Email"
+msgstr "Е-пошта првог коментара"
+
+#: wp-admin/includes/network.php:485
+msgid "That&#8217;s all, stop editing! Happy publishing."
+msgstr "То је све, престаните са уређивањем! Срећно објављивање."
+
+#. translators: 1: wp-config.php, 2: Location of wp-config file, 3: Translated
+#. version of "That's all, stop editing! Happy publishing."
+#: wp-admin/includes/network.php:477
+msgid "Add the following to your %1$s file in %2$s <strong>above</strong> the line reading %3$s:"
+msgstr "Додајте следеће у своју датотеку %1$s у %2$s, <strong>изнад</strong> реда који гласи %3$s:"
+
+#. translators: 1: Theme name, 2: Theme author.
+#: wp-admin/network/themes.php:149
+msgctxt "theme"
+msgid "%1$s by %2$s"
+msgstr "%1$s од %2$s"
+
+#: wp-admin/network/site-new.php:243
+msgid "Only lowercase letters (a-z), numbers, and hyphens are allowed."
+msgstr "Само мала слова (a-z из енглеске латинице) и цртице су дозвољени."
+
+#: wp-admin/network/site-new.php:169
+msgctxt "email \"From\" field"
+msgid "Site Admin"
+msgstr "Управник веб места"
+
+#. translators: %s: wp-config.php
+#: wp-admin/includes/network.php:540
+msgid "These unique authentication keys are also missing from your %s file."
+msgstr "Ови јединствени кључеви аутентификације такође недостају у вашој датотеци %s."
+
+#. translators: %s: wp-config.php
+#: wp-admin/includes/network.php:534
+msgid "This unique authentication key is also missing from your %s file."
+msgstr "Овај јединствени кључ аутентификације такође недостаје у вашој датотеци %s."
+
+#. translators: %s: wp-config.php
+#: wp-admin/includes/network.php:463
+msgid "We recommend you back up your existing %s file."
+msgstr "Препоручујемо вам да направите резерву своје постојеће датотеке %s."
+
+#. translators: 1: wp-config.php, 2: .htaccess
+#. translators: 1: wp-config.php, 2: web.config
+#: wp-admin/includes/network.php:447 wp-admin/includes/network.php:455
+msgid "We recommend you back up your existing %1$s and %2$s files."
+msgstr "Препоручујемо вам да направите резерву своје постојећих датотека %1$s и %2$s."
+
+#. translators: 1: localhost, 2: localhost.localdomain
+#: wp-admin/includes/network.php:306
+msgid "Because you are using %1$s, the sites in your WordPress network must use sub-directories. Consider using %2$s if you wish to use sub-domains."
+msgstr "Зато што користите %1$s, веб места у вашој мрежи морају да користе поддиректоријуме. Размотрите коришћење %2$s уколико желите да користите поддомене."
+
+#. translators: %s: Host name.
+#: wp-admin/includes/network.php:288 wp-admin/includes/network.php:348
+msgid "The internet address of your network will be %s."
+msgstr "Интернет адреса ваше мреже биће %s."
+
+#. translators: 1: Site URL, 2: Host name, 3: www.
+#: wp-admin/includes/network.php:274
+msgid "We recommend you change your site domain to %1$s before enabling the network feature. It will still be possible to visit your site using the %3$s prefix with an address like %2$s but any links will not have the %3$s prefix."
+msgstr "Препоручујемо да промените домен свог веб места у %1$s пре омогућавања особине мреже. И даље ће бити могуће посећивање вашег веб места користећи префикс %3$s са адресом као %2$s али све везе неће имати префикс %3$s."
+
+#: wp-admin/includes/network.php:229
+msgid "You cannot change this later."
+msgstr "Ово не можете променити касније."
+
+#: wp-admin/includes/network.php:228
+msgid "Please choose whether you would like sites in your WordPress network to use sub-domains or sub-directories."
+msgstr "Молимо вас да одаберете да ли бисте желели да веб места у вашој Вордпресовој мрежи користе поддомене или поддиректоријуме."
+
+#. translators: 1: mod_rewrite, 2: mod_rewrite documentation URL, 3: Google
+#. search for mod_rewrite.
+#: wp-admin/includes/network.php:216
+msgid "If %1$s is disabled, ask your administrator to enable that module, or look at the <a href=\"%2$s\">Apache documentation</a> or <a href=\"%3$s\">elsewhere</a> for help setting it up."
+msgstr "Уколико је %1$s искључен, питајте свог управника да укључи тај модул или погледајте <a href=\"%2$s\">Апачијеву документацију</a> или <a href=\"%3$s\">другде</a> за помоћ у постављању га."
+
+#. translators: %s: mod_rewrite
+#: wp-admin/includes/network.php:206
+msgid "It looks like the Apache %s module is not installed."
+msgstr "Изгледа да Апачијев модул %s није инсталиран."
+
+#. translators: %s: mod_rewrite
+#: wp-admin/includes/network.php:198
+msgid "Please make sure the Apache %s module is installed as it will be used at the end of this installation."
+msgstr "Молимо вас да будете сигурни да је Апачијев модул %s инсталиран јер ће бити коришћен на крају ове инсталације."
+
+#. translators: %s: Port number.
+#: wp-admin/includes/network.php:145
+msgid "You cannot use port numbers such as %s."
+msgstr "Не можете да користите бројеве порта као што је %s."
+
+#: wp-admin/includes/class-wp-ms-users-list-table.php:200
+msgctxt "user"
+msgid "Registered"
+msgstr "Регистрован"
+
+#. translators: Number of users.
+#: wp-admin/includes/class-wp-ms-users-list-table.php:164
+msgid "Super Admin <span class=\"count\">(%s)</span>"
+msgid_plural "Super Admins <span class=\"count\">(%s)</span>"
+msgstr[0] "Главни управници <span class=\"count\">(%s)</span>"
+msgstr[1] "Главни управници <span class=\"count\">(%s)</span>"
+msgstr[2] "Главни управници <span class=\"count\">(%s)</span>"
+
+#: wp-admin/includes/class-wp-ms-users-list-table.php:118
+msgctxt "user"
+msgid "Not spam"
+msgstr "Означи да није непожељан"
+
+#: wp-admin/includes/class-wp-ms-users-list-table.php:117
+msgctxt "user"
+msgid "Mark as spam"
+msgstr "Означи као непожељан"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:684
+msgid "Visit Theme Site"
+msgstr "Посетите веб место теме"
+
+#. translators: %s: Theme name.
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:678
+msgid "Visit %s homepage"
+msgstr "Посетите веб страницу за %s"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:647
+msgid "Broken Theme:"
+msgstr "Неисправна тема:"
+
+#. translators: %s: Theme name.
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:553
+msgid "Network Disable %s"
+msgstr "Онемогући за мрежу %s"
+
+#. translators: %s: Theme name.
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:550
+msgid "Disable %s"
+msgstr "Онемогући %s"
+
+#. translators: %s: Theme name.
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:527
+msgid "Network Enable %s"
+msgstr "Омогући за мрежу %s"
+
+#. translators: %s: Theme name.
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:524
+msgid "Enable %s"
+msgstr "Омогући %s"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:429
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:560
+msgid "Network Disable"
+msgstr "Онемогући за мрежу"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:429
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:560
+msgid "Disable"
+msgstr "Онемогући"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:426
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:534
+msgid "Enable"
+msgstr "Омогући"
+
+#. translators: %s: Number of themes.
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:372
+msgctxt "themes"
+msgid "Broken <span class=\"count\">(%s)</span>"
+msgid_plural "Broken <span class=\"count\">(%s)</span>"
+msgstr[0] "Покварене <span class=\"count\">(%s)</span>"
+msgstr[1] "Покварене <span class=\"count\">(%s)</span>"
+msgstr[2] "Покварене <span class=\"count\">(%s)</span>"
+
+#. translators: %s: Number of themes.
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:354
+msgctxt "themes"
+msgid "Disabled <span class=\"count\">(%s)</span>"
+msgid_plural "Disabled <span class=\"count\">(%s)</span>"
+msgstr[0] "Онемогућене <span class=\"count\">(%s)</span>"
+msgstr[1] "Онемогућене <span class=\"count\">(%s)</span>"
+msgstr[2] "Онемогућене <span class=\"count\">(%s)</span>"
+
+#. translators: %s: Number of themes.
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:345
+msgctxt "themes"
+msgid "Enabled <span class=\"count\">(%s)</span>"
+msgid_plural "Enabled <span class=\"count\">(%s)</span>"
+msgstr[0] "Омогућене <span class=\"count\">(%s)</span>"
+msgstr[1] "Омогућене <span class=\"count\">(%s)</span>"
+msgstr[2] "Омогућене <span class=\"count\">(%s)</span>"
+
+#. translators: %s: Number of themes.
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:336
+msgctxt "themes"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "Све <span class=\"count\">(%s)</span>"
+msgstr[1] "Све <span class=\"count\">(%s)</span>"
+msgstr[2] "Све <span class=\"count\">(%s)</span>"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:288
+msgid "Theme"
+msgstr "Тема"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:276
+msgid "No themes found."
+msgstr "Нема пронађених тема."
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:704
+msgctxt "verb; site"
+msgid "Archive"
+msgstr "Архивирај"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:702
+msgid "Unarchive"
+msgstr "Врати из архиве"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:478
+msgid "Never"
+msgstr "Никада"
+
+#. translators: 1: Site title, 2: Site tagline.
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:451
+msgid "%1$s &#8211; %2$s"
+msgstr "%1$s &#8211; %2$s"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:363
+#: wp-admin/network/site-info.php:176
+msgctxt "site"
+msgid "Registered"
+msgstr "Регистровано"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:362
+#: wp-admin/network/site-info.php:180
+msgid "Last Updated"
+msgstr "Последњи пут ажурирано"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:708
+msgctxt "site"
+msgid "Not Spam"
+msgstr "Није непожељно"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:292
+msgctxt "site"
+msgid "Mark as spam"
+msgstr "Означи као непожељан"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:207
+msgid "No sites found."
+msgstr "Нема нађених веб места."
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:42
+#: wp-admin/network/site-info.php:190
+msgid "Mature"
+msgstr "За одрасле"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:41
+#: wp-admin/network/site-info.php:188
+msgid "Deleted"
+msgstr "Обрисано"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:40
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:710
+#: wp-admin/network/site-info.php:187
+msgctxt "site"
+msgid "Spam"
+msgstr "Непожељно"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:39
+#: wp-admin/network/site-info.php:186
+msgid "Archived"
+msgstr "Архивирано"
+
+#: wp-admin/network/user-new.php:136 wp-admin/network/site-users.php:360
+msgid "A password reset link will be sent to the user via email."
+msgstr "Веза за ресетовање лозинке ће бити послата кориснику е-поштом."
+
+#. translators: 1: NOBLOGREDIRECT, 2: wp-config.php
+#: wp-admin/network/settings.php:212
+msgid "If registration is disabled, please set %1$s in %2$s to a URL you will redirect visitors to if they visit a non-existent site."
+msgstr "Уколико је регистрација искључена, молимо вас да поставите %1$s у %2$s на URL према коме ћете преусмеравати кориснике уколико посете непостојеће веб место."
+
+#. translators: 1: WP_ALLOW_MULTISITE, 2: wp-config.php
+#: wp-admin/network.php:44
+msgid "You must define the %1$s constant as true in your %2$s file to allow creation of a Network."
+msgstr "Морате одредити непроменљиву %1$s као тачну у својој датотеци %2$s да бисте омогућили прављење мреже."
+
+#: wp-admin/network/themes.php:331
+msgid "Themes list navigation"
+msgstr "Кретање списка тема"
+
+#: wp-admin/network/sites.php:52
+msgid "Sites list"
+msgstr "Списак веб места"
+
+#: wp-admin/network/sites.php:51
+msgid "Sites list navigation"
+msgstr "Кретање списка веб места"
+
+#: wp-admin/network/site-users.php:27
+msgid "Site users list"
+msgstr "Списак корисника веб места"
+
+#: wp-admin/network/site-users.php:26
+msgid "Site users list navigation"
+msgstr "Кретање списка корисника"
+
+#: wp-admin/network/site-users.php:25
+msgid "Filter site users list"
+msgstr "Филтрирај списак корисника веб места"
+
+#: wp-admin/network/site-themes.php:24
+msgid "Site themes list"
+msgstr "Списак тема веб места"
+
+#: wp-admin/network/site-themes.php:23
+msgid "Site themes list navigation"
+msgstr "Кретање списка тема веб места"
+
+#: wp-admin/network/site-themes.php:22
+msgid "Filter site themes list"
+msgstr "Филтрирај списак тема веб места"
+
+#: wp-admin/network/site-new.php:121
+msgid "The domain or path entered conflicts with an existing username."
+msgstr "Унет домен или путања се сукобљава са постојећим корисничким именом."
+
+#: wp-admin/network/sites.php:89
+msgid "The requested action is not valid."
+msgstr "Захтевана радња није исправна."
+
+#. translators: %s: Site URL.
+#: wp-admin/network/sites.php:81
+msgid "You are about to mark the site %s as not mature."
+msgstr "Уклонићете обележавање веб места %s као да је за одрасле."
+
+#. translators: %s: Site URL.
+#: wp-admin/network/sites.php:79
+msgid "You are about to mark the site %s as mature."
+msgstr "Обележићете веб место %s као за одрасле."
+
+#. translators: %s: Site URL.
+#: wp-admin/network/sites.php:77
+msgid "You are about to delete the site %s."
+msgstr "Обрисаћете веб место %s."
+
+#. translators: %s: Site URL.
+#: wp-admin/network/sites.php:75
+msgid "You are about to mark the site %s as spam."
+msgstr "Обележићете као непожељно веб место %s."
+
+#. translators: %s: Site URL.
+#: wp-admin/network/sites.php:73
+msgid "You are about to unspam the site %s."
+msgstr "Вратићете из непожељних веб место %s."
+
+#. translators: %s: Site URL.
+#: wp-admin/network/sites.php:71
+msgid "You are about to archive the site %s."
+msgstr "Архивираћете веб место %s."
+
+#. translators: %s: Site URL.
+#: wp-admin/network/sites.php:69
+msgid "You are about to unarchive the site %s."
+msgstr "Вратићете из архиве веб место %s."
+
+#. translators: %s: Site URL.
+#: wp-admin/network/sites.php:67
+msgid "You are about to deactivate the site %s."
+msgstr "Искључићете веб место %s."
+
+#. translators: %s: Site URL.
+#: wp-admin/network/sites.php:65
+msgid "You are about to activate the site %s."
+msgstr "Укључићете веб место %s."
+
+#: wp-admin/network/site-info.php:28 wp-admin/network/site-users.php:46
+#: wp-admin/network/site-themes.php:53 wp-admin/network/site-settings.php:28
+msgid "The requested site does not exist."
+msgstr "Захтевано веб место не постоји."
+
+#: wp-admin/network/user-new.php:29 wp-admin/network/users.php:230
+msgid "<a href=\"https://codex.wordpress.org/Network_Admin_Users_Screen\">Documentation on Network Users</a>"
+msgstr "<a href=\"https://codex.wordpress.org/Network_Admin_Users_Screen\">Документација о корисницима мреже</a>"
+
+#: wp-admin/network/themes.php:323
+msgid "<a href=\"https://codex.wordpress.org/Network_Admin_Themes_Screen\">Documentation on Network Themes</a>"
+msgstr "<a href=\"https://codex.wordpress.org/Network_Admin_Themes_Screen\">Документација о темама мреже</a>"
+
+#: wp-admin/network/settings.php:63
+msgid "<a href=\"https://codex.wordpress.org/Network_Admin_Settings_Screen\">Documentation on Network Settings</a>"
+msgstr "<a href=\"https://codex.wordpress.org/Network_Admin_Settings_Screen\">Документација о подешавањима мреже</a>"
+
+#. translators: 1: Site URL, 2: Server error message.
+#: wp-admin/network/upgrade.php:98
+msgid "Warning! Problem updating %1$s. Your server may not be able to connect to sites running on it. Error message: %2$s"
+msgstr "Упозорење! Проблем приликом ажурирања %1$s. Ваш сервер можда не може да се повеже са веб местима која се покрећу на њему. Порука грешке: %2$s"
+
+#: wp-admin/network/themes.php:142
+msgid "You are about to remove the following themes:"
+msgstr "Обрисаћете следеће теме:"
+
+#: wp-admin/network/themes.php:141
+msgid "These themes may be active on other sites in the network."
+msgstr "Ове теме су можда укључене на другим веб местима у мрежи."
+
+#. translators: %s: Number of themes.
+#: wp-admin/network/themes.php:378 wp-admin/network/site-themes.php:204
+msgid "%s theme disabled."
+msgid_plural "%s themes disabled."
+msgstr[0] "%s тема је онемогућена."
+msgstr[1] "%s теме су онемогућене."
+msgstr[2] "%s тема је онемогућено."
+
+#. translators: %s: Number of themes.
+#: wp-admin/network/themes.php:369 wp-admin/network/site-themes.php:195
+msgid "%s theme enabled."
+msgid_plural "%s themes enabled."
+msgstr[0] "%s тема је омогућена."
+msgstr[1] "%s теме су омогућене."
+msgstr[2] "%s тема је омогућено."
+
+#. translators: %s: Number of themes.
+#: wp-admin/network/themes.php:387
+msgid "%s theme deleted."
+msgid_plural "%s themes deleted."
+msgstr[0] "%s тема је обрисана."
+msgstr[1] "%s теме су обрисане."
+msgstr[2] "%s тема је обрисано."
+
+#: wp-admin/network/themes.php:175
+msgid "Yes, delete these themes"
+msgstr "Да, обриши ове теме"
+
+#: wp-admin/network/themes.php:140
+msgid "Delete Themes"
+msgstr "Обриши теме"
+
+#: wp-admin/network/settings.php:202
+msgid "New registrations settings"
+msgstr "Подешавања нове регистрације"
+
+#: wp-admin/network/settings.php:412
+msgid "Size in kilobytes"
+msgstr "Величина у килобајтима"
+
+#: wp-admin/network/settings.php:396
+msgid "Allowed file types. Separate types by spaces."
+msgstr "Дозвољене врсте датотека. Раздвојите врсте белинама."
+
+#: wp-admin/network/site-info.php:196
+msgid "Set site attributes"
+msgstr "Поставите особине веб места"
+
+#: wp-admin/network/settings.php:479
+msgid "Enable menus"
+msgstr "Омогућите изборнике"
+
+#. translators: 1: File name (.htaccess or web.config), 2: File path.
+#: wp-admin/includes/network.php:609 wp-admin/includes/network.php:661
+msgid "Add the following to your %1$s file in %2$s, <strong>replacing</strong> other WordPress rules:"
+msgstr "Додајте следеће у своју датотеку %1$s у %2$s, <strong>мењајући</strong> друга Вордпресова правила:"
+
+#: wp-admin/network/sites.php:114 wp-admin/network/sites.php:190
+msgid "Confirm your action"
+msgstr "Потврдите своју радњу"
+
+#: wp-admin/network/users.php:220
+msgid "Hover over any user on the list to make the edit links appear. The Edit link on the left will take you to their Edit User profile page; the Edit link on the right by any site name goes to an Edit Site screen for that site."
+msgstr "Пређите преко било ког корисника у списку да бисте направили да се везе за уређивање појављују. Веза Уреди са леве стране ће вас одвести на његову страницу Уређивање корисника; веза Уреди десно од назива било ког веб места иде на екран Уреди веб место за то веб место."
+
+#: wp-admin/network/index.php:43
+msgid "To search for a site, <strong>enter the path or domain</strong>."
+msgstr "Да бисте тражили веб место <strong>унесите путању или домен</strong>."
+
+#: wp-admin/network/index.php:42
+msgid "To search for a user, <strong>enter an email address or username</strong>. Use a wildcard to search for a partial username, such as user&#42;."
+msgstr "Да бисте тражили корисника <strong>унесите адресу е-поште или корисничко име</strong>. Користите џокере да тражите део корисничког имена, као корис&#42;."
+
+#: wp-admin/network/index.php:40
+msgid "To add a new site, <strong>click Create a New Site</strong>."
+msgstr "Да бисте додали ново веб место <strong>притисните Направи ново веб место</strong>."
+
+#: wp-admin/network/index.php:39
+msgid "To add a new user, <strong>click Create a New User</strong>."
+msgstr "Да бисте додали новог корисника <strong>притисните Направи новог корисника</strong>."
+
+#: wp-admin/network/index.php:48
+msgid "Quick Tasks"
+msgstr "Брзи задаци"
+
+#: wp-admin/network/index.php:41
+msgid "To search for a user or site, use the search boxes."
+msgstr "Да бисте тражили корисника или веб место, користите кутијице претраге."
+
+#: wp-admin/network/index.php:38
+msgid "The Right Now widget on this screen provides current user and site counts on your network."
+msgstr "Виџет Сада на овом екрану даје тренутне бројаче корисника и веб места на вашој мрежи."
+
+#: wp-admin/network/index.php:28
+msgid "Modify global network settings"
+msgstr "Измените општа подешавања мреже"
+
+#: wp-admin/network/index.php:27
+msgid "Update your network"
+msgstr "Ажурирајте своју мрежу"
+
+#: wp-admin/network/index.php:26
+msgid "Install and activate themes or plugins"
+msgstr "Постављати и укључивати теме или додатке"
+
+#: wp-admin/network/index.php:25
+msgid "Add and manage sites or users"
+msgstr "Додајте и управљајте веб местиома или корисницима"
+
+#: wp-admin/network/index.php:24
+msgid "From here you can:"
+msgstr "Одавде можете:"
+
+#: wp-admin/network/index.php:23
+msgid "Welcome to your Network Admin. This area of the Administration Screens is used for managing all aspects of your Multisite Network."
+msgstr "Добро дошли на Управљање мрежом. Овај део управљачких екрана се користи за управљање свим видовима ваше мреже са више места."
+
+#: wp-admin/network/upgrade.php:140
+msgid "WordPress has been updated! Before we send you on your way, we need to individually upgrade the sites in your network."
+msgstr "Вордпрес је ажуриран! Пре него што вас вратимо на ваш пут, мораћемо да појединачно ажурирамо веб места у вашој мрежи."
+
+#: wp-admin/network/upgrade.php:23
+msgid "Only use this screen once you have updated to a new version of WordPress through Updates/Available Updates (via the Network Administration navigation menu or the Toolbar). Clicking the Upgrade Network button will step through each site in the network, five at a time, and make sure any database updates are applied."
+msgstr "Користите овај екран само када сте ажурирали на новије издање Вордпреса преко Ажурирања / Доступна ажурирања (преко изборника кретања Управљање мрежом или преко траке са алаткама). Притисак на дугме Ажурирај мрежу ће вас водити кроз свако веб место у мрежи, пет одједном, и направити сигурним да су сва ажурирања базе података примењена."
+
+#: wp-admin/network/upgrade.php:15 wp-admin/network/upgrade.php:42
+#: wp-admin/network/upgrade.php:144 wp-admin/network/menu.php:46
+msgid "Upgrade Network"
+msgstr "Ажурирај мрежу"
+
+#. translators: New site notification email. 1: User login, 2: Site URL, 3:
+#. Site title.
+#: wp-admin/network/site-new.php:157
+msgid ""
+"New site created by %1$s\n"
+"\n"
+"Address: %2$s\n"
+"Name: %3$s"
+msgstr ""
+"Ново веб место је направљено од стране %1$s\n"
+"\n"
+"Адреса: %2$s\n"
+"Име: %3$s"
+
+#: wp-admin/includes/network.php:263 wp-admin/includes/network.php:615
+#: wp-admin/includes/network.php:667
+msgid "Subdirectory networks may not be fully compatible with custom wp-content directories."
+msgstr "Мреже поддиректоријума можда нису у потпуности усклађене са прилагођеним wp-content директоријумима."
+
+#: wp-admin/network.php:62
+msgid "Add the designated lines of code to wp-config.php (just before <code>/*...stop editing...*/</code>) and <code>.htaccess</code> (replacing the existing WordPress rules)."
+msgstr "Додајте направљене линије кода у wp-config.php (баш пре <code>/*...престаните са уређивањем...*/</code>) и <code>.htaccess</code> (мењајући постојећа Вордпресова правила)."
+
+#: wp-admin/network/settings.php:57
+msgid "Super admins can no longer be added on the Options screen. You must now go to the list of existing users on Network Admin > Users and click on Username or the Edit action link below that name. This goes to an Edit User page where you can check a box to grant super admin privileges."
+msgstr "Главни управници више не могу бити додати на екрану Могућности. Сада морате ићи на списак постојећих корисника на Главно управљање > Корисници и притиснути на корисничко име или везу радње Уреди испод тог имена. Ово води на страницу Уреди корисника где можете да штиклирате кутијицу која ће доделити повластице главног управника."
+
+#: wp-admin/network/menu.php:41
+msgid "Updates"
+msgstr "Ажурирања"
+
+#: wp-admin/network/site-new.php:25
+msgid "This screen is for Super Admins to add new sites to the network. This is not affected by the registration settings."
+msgstr "Овај екран је за главне управнике да би додавали нова веб места у мрежи. Ово није погођено подешавањима регистровања."
+
+#: wp-admin/network/sites.php:33
+msgid "An Edit link to a separate Edit Site screen."
+msgstr "Веза Уреди ка одвојеном екрану Уреди веб место."
+
+#: wp-admin/network/themes.php:301
+msgid "Themes can be enabled on a site by site basis by the network admin on the Edit Site screen (which has a Themes tab); get there via the Edit action link on the All Sites screen. Only network admins are able to install or edit themes."
+msgstr "Теме могу бити укључене на веб место по веб место основи од стране управника мреже на екрану Уреди веб место (које има језичак Теме); одите тамо преко везе радње Уреди на екрану Сва веб места. Само управници мреже могу да поставе или уређују теме."
+
+#: wp-admin/network/sites.php:36
+msgid "Delete which is a permanent action after the confirmation screens."
+msgstr "Обриши која је трајна радња након екрана потврђивања."
+
+#: wp-admin/network/sites.php:39
+msgid "Clicking on bold headings can re-sort this table."
+msgstr "Притисак на подебљана заглавља ће променити поредак ове табеле."
+
+#: wp-admin/network/sites.php:30
+msgid "Add New takes you to the Add New Site screen. You can search for a site by Name, ID number, or IP address. Screen Options allows you to choose how many sites to display on one page."
+msgstr "Додај ново вас води на екран Додај ново веб место. Можете претражити за веб место по Називу, ID броју или IP адреси. Подешавања екрана вам омогућавају да одаберете колико веб места да се приказују на једној страници."
+
+#. translators: 1: Dashboard URL, 2: Network admin edit URL.
+#: wp-admin/network/site-new.php:194
+msgid "Site added. <a href=\"%1$s\">Visit Dashboard</a> or <a href=\"%2$s\">Edit Site</a>"
+msgstr "Веб место је додато. <a href=\"%1$s\">Посетите контролну таблу</a> или <a href=\"%2$s\">уредите веб место</a>"
+
+#: wp-admin/network/menu.php:52
+msgid "All Sites"
+msgstr "Сва веб места"
+
+#. translators: %s: Number of available theme updates.
+#: wp-admin/network/menu.php:63
+msgid "Themes %s"
+msgstr "Теме %s"
+
+#: wp-admin/network/menu.php:80
+msgid "Installed Themes"
+msgstr "Постављене теме"
+
+#: wp-admin/network/site-settings.php:78
+msgid "Site options updated."
+msgstr "Могућности веб места су ажуриране."
+
+#: wp-admin/network/settings.php:423
+msgid "Language Settings"
+msgstr "Подешавања језика"
+
+#: wp-admin/network/settings.php:238
+msgid "Allow site administrators to add new users to their site via the \"Users &rarr; Add New\" page"
+msgstr "Дозволи управницима веб места да додају нове кориснике на своја веб места преко странице \"Корисници &rarr; Додај нове\""
+
+#: wp-admin/network/sites.php:34
+msgid "Dashboard leads to the Dashboard for that site."
+msgstr "Контролна табла води ка контролној табли тог веб места."
+
+#: wp-admin/network/themes.php:182
+msgid "No, return me to the theme list"
+msgstr "Не, врати ме на списак тема"
+
+#. translators: %s: Site title.
+#: wp-admin/network/site-info.php:126 wp-admin/network/site-users.php:204
+#: wp-admin/network/site-themes.php:170 wp-admin/network/site-settings.php:83
+msgid "Edit Site: %s"
+msgstr "Уреди веб место: %s"
+
+#: wp-admin/network/themes.php:409 wp-admin/network/site-themes.php:208
+msgid "No theme selected."
+msgstr "Нема одабраних тема."
+
+#: wp-admin/network/themes.php:366 wp-admin/network/site-themes.php:192
+msgid "Theme enabled."
+msgstr "Тема је омогућена."
+
+#: wp-admin/network/site-info.php:23 wp-admin/network/site-users.php:41
+#: wp-admin/network/site-themes.php:46 wp-admin/network/site-settings.php:23
+msgid "Invalid site ID."
+msgstr "Неисправан ID веб места."
+
+#: wp-admin/network/themes.php:375 wp-admin/network/site-themes.php:201
+msgid "Theme disabled."
+msgstr "Тема је онемогућена."
+
+#: wp-admin/network/user-new.php:22
+msgid "Add User will set up a new user account on the network and send that person an email with username and password."
+msgstr "Додај корисника ће направити нови кориснички налог на мрежи и послаће тој особи е-пошту са корисничким именом и лозинком."
+
+#: wp-admin/network/site-themes.php:212
+msgid "Network enabled themes are not shown on this screen."
+msgstr "Теме омогућене у мрежи нису приказане на овом екрану."
+
+#: wp-admin/network/settings.php:20 wp-admin/network/menu.php:111
+msgid "Network Settings"
+msgstr "Подешавања мреже"
+
+#: wp-admin/network/themes.php:136
+msgid "Delete Theme"
+msgstr "Обриши тему"
+
+#: wp-admin/network/themes.php:137
+msgid "This theme may be active on other sites in the network."
+msgstr "Ова тема је можда укључена на другим веб местима у мрежи."
+
+#: wp-admin/network/themes.php:138
+msgid "You are about to remove the following theme:"
+msgstr "Уклонићете следећу тему:"
+
+#: wp-admin/network/themes.php:173
+msgid "Yes, delete this theme"
+msgstr "Да, обриши ову тему"
+
+#: wp-admin/network/themes.php:159
+msgid "Are you sure you want to delete these themes?"
+msgstr "Да ли сигурно желите да избришете ове теме?"
+
+#: wp-admin/network/site-new.php:201 wp-admin/network/site-new.php:211
+msgid "Add New Site"
+msgstr "Додај ново веб место"
+
+#: wp-admin/network/themes.php:411
+msgid "You cannot delete a theme while it is active on the main site."
+msgstr "Не можете да обришете тему док је укључена на главном веб месту."
+
+#: wp-admin/network/site-users.php:251
+msgid "Enter the username of an existing user."
+msgstr "Додајте корисничко име постојећег корисника."
+
+#: wp-admin/network/site-info.php:121
+msgid "Site info updated."
+msgstr "Подаци веб места су ажурирани."
+
+#: wp-admin/network/site-users.php:245
+msgid "User is already a member of this site."
+msgstr "Корисник је већ члан овог веб места."
+
+#. translators: %s: Site URL.
+#: wp-admin/network/sites.php:167
+msgid "Sorry, you are not allowed to delete the site %s."
+msgstr "Жао нам је, није вам дозвољено да обришете веб место %s."
+
+#: wp-admin/network/user-new.php:55
+msgid "Cannot add user."
+msgstr "Није могуће додати корисника."
+
+#: wp-admin/network/user-new.php:148 wp-admin/network/site-users.php:323
+msgid "Add User"
+msgstr "Додај корисника"
+
+#: wp-admin/network/site-users.php:266
+msgid "User created."
+msgstr "Корисник је направљен."
+
+#: wp-admin/network/site-users.php:263
+msgid "Select a user to remove."
+msgstr "Одаберите корисника за уклањање."
+
+#: wp-admin/network/site-users.php:257
+msgid "Select a user to change role."
+msgstr "Одаберите корисника да бисте променили улогу."
+
+#: wp-admin/network/site-users.php:269
+msgid "Enter the username and email."
+msgstr "Унестите корисничко име и адресу е-поште."
+
+#: wp-admin/network.php:63
+msgid "Once you add this code and refresh your browser, multisite should be enabled. This screen, now in the Network Admin navigation menu, will keep an archive of the added code. You can toggle between Network Admin and Site Admin by clicking on the Network Admin or an individual site name under the My Sites dropdown in the Toolbar."
+msgstr "Једном када додате овај код и освежите свој прегледач веба, више места би требало да буде омогућено. Овај екран, сада у изборнику кретања Управљање мрежом, чува архиву додатог кода. Можете мењати између Управљање мрежом и Управљање веб местом притиском на Управљање мрежом или на име појединачног веб места под Моја веб места у траци са алаткама."
+
+#: wp-admin/includes/network.php:160
+msgid "Error: The network could not be created."
+msgstr "Грешка: Мрежа није могла бити направљена."
+
+#: wp-admin/includes/network.php:246
+msgid "Sub-directories"
+msgstr "Поддиректоријуми"
+
+#: wp-admin/network.php:72
+msgid "Network"
+msgstr "Мрежа"
+
+#. translators: 1: Host name.
+#: wp-admin/includes/network.php:239
+msgctxt "subdomain examples"
+msgid "like <code>site1.%1$s</code> and <code>site2.%1$s</code>"
+msgstr "као <code>vebmesto1.%1$s</code> и <code>vebmesto2.%1$s</code>"
+
+#: wp-admin/includes/network.php:227
+msgid "Addresses of Sites in your Network"
+msgstr "Адресе веб места у вашој мрежи"
+
+#: wp-admin/network.php:29
+msgid "The Network creation panel is not for WordPress MU networks."
+msgstr "Табла за прављење мреже није за Вордпрес MU мреже."
+
+#: wp-admin/includes/network.php:148
+msgid "Return to Dashboard"
+msgstr "Назад на контролну таблу"
+
+#: wp-admin/network.php:55
+msgid "Create a Network of WordPress Sites"
+msgstr "Направите мрежу Вордпресових веб места"
+
+#: wp-admin/network.php:59
+msgid "This screen allows you to configure a network as having subdomains (<code>site1.example.com</code>) or subdirectories (<code>example.com/site1</code>). Subdomains require wildcard subdomains to be enabled in Apache and DNS records, if your host allows it."
+msgstr "Овај екран вам омогућава да подесите мрежу са имањем поддомена (<code>vebmesto1.primer.net</code>) или подиректоријума (<code>primer.net/vebmesto1</code>). Поддомени захтевају да џокер поддомена буде омогућен у Apache-у и DNS белешкама, уколико ваш домаћин то дозвољава."
+
+#. translators: %s: URL to Plugins screen.
+#: wp-admin/includes/network.php:130
+msgid "Please <a href=\"%s\">deactivate your plugins</a> before enabling the Network feature."
+msgstr "Молимо вас да <a href=\"%s\">искључите своје додатке</a> пре омогућавања особине Мреже."
+
+#: wp-admin/includes/network.php:133
+msgid "Once the network is created, you may reactivate your plugins."
+msgstr "Једном када је мрежа направљена, можете поново укључити своје додатке."
+
+#: wp-admin/network.php:64
+msgid "The choice of subdirectory sites is disabled if this setup is more than a month old because of permalink problems with &#8220;/blog/&#8221; from the main site. This disabling will be addressed in a future version."
+msgstr "Избор веб места поддиректоријума је онемогућен уколико је ова поставка старија од једног месеца због проблема са сталном везом која има &#132/blog/&#147; са главног веб места. Ово онемогућавање ће бити решено у будућем издању."
+
+#: wp-admin/includes/network.php:181
+msgid "Welcome to the Network installation process!"
+msgstr "Добро дошли у процес инсталирања мреже!"
+
+#: wp-admin/includes/network.php:297
+msgid "Network Details"
+msgstr "Детаљи мреже"
+
+#: wp-admin/includes/network.php:679
+msgid "Once you complete these steps, your network is enabled and configured. You will have to log in again."
+msgstr "Једном када завршите ове кораке, ваша мрежа је омогућена и подешена. Мораћете да се поново пријавите."
+
+#: wp-admin/network.php:61
+msgid "The next screen for Network Setup will give you individually-generated lines of code to add to your wp-config.php and .htaccess files. Make sure the settings of your FTP client make files starting with a dot visible, so that you can find .htaccess; you may have to create this file if it really is not there. Make backup copies of those two files."
+msgstr "Следећи екран за постављање мреже ће вам дати појединачно направљене линије кода за додавање у вашим датотекама wp-config.php и .htaccess. Будите сигурни да подешавања вашег клијента FTP-а праве датотеке које почињу видљивом тачком, тако да можете да пронађете .htaccess; можда ћете морати да направите ову датотеку уколико није тамо. Направите резервне примерке ових двају датотека."
+
+#: wp-admin/network.php:60
+msgid "Choose subdomains or subdirectories; this can only be switched afterwards by reconfiguring your installation. Fill out the network details, and click Install. If this does not work, you may have to add a wildcard DNS record (for subdomains) or change to another setting in Permalinks (for subdirectories)."
+msgstr "Одаберите поддомене или поддиректоријуме; ово може бити промењено касније мењањем поставки ваше инсталације. Попуните детаље о мрежи и притисните Постави. Уколико ово не ради, можда ћете морати да додате џокер DNS белешку (за поддомене) или да промените у друга подешавања у Сталним везама (за поддиректоријуме)."
+
+#: wp-admin/includes/network.php:545
+msgid "To make your installation more secure, you should also add:"
+msgstr "Да бисте своју инсталацију учинили сигурнијом, требало би да такође додате:"
+
+#: wp-admin/includes/network.php:234
+msgid "Sub-domains"
+msgstr "Поддомени"
+
+#: wp-admin/includes/network.php:230
+msgid "You will need a wildcard DNS record if you are going to use the virtual host (sub-domain) functionality."
+msgstr "Требаће вам џокер DNS белешка уколико ћете користити функционалност привидног домаћина (поддомен)."
+
+#: wp-admin/includes/network.php:142
+msgid "You cannot install a network of sites with your server address."
+msgstr "Не можете инсталирати мрежу веб места са адресом вашег сервера."
+
+#: wp-admin/includes/network.php:195
+msgid "Note:"
+msgstr "Напомена:"
+
+#: wp-admin/includes/network.php:182
+msgid "Fill in the information below and you&#8217;ll be on your way to creating a network of WordPress sites. We will create configuration files in the next step."
+msgstr "Попуните податке испод и бићете на путу прављења мреже Вордпресових веб места. Ми ћемо направити датотеке подешавања у следећем кораку."
+
+#: wp-admin/includes/network.php:440
+msgid "Complete the following steps to enable the features for creating a network of sites."
+msgstr "Завршите следеће кораке да бисте омогућили особине за прављење мреже веб места."
+
+#: wp-admin/includes/network.php:439
+msgid "Enabling the Network"
+msgstr "Омогућавање мреже"
+
+#: wp-admin/includes/network.php:428
+msgid "Please complete the configuration steps. To create a new network, you will need to empty or remove the network database tables."
+msgstr "Молимо вас да завршите кораке подешавања. Да бисте направили нову мрежу, мораћете да испразните или уклоните мрежне табеле базе података."
+
+#: wp-admin/includes/network.php:427
+msgid "An existing WordPress network was detected."
+msgstr "Постојећа Вордпресова мрежа је препозната."
+
+#: wp-admin/includes/network.php:422
+msgid "The original configuration steps are shown here for reference."
+msgstr "Изворни кораци подешавања су овде приказани за упутство."
+
+#: wp-admin/includes/network.php:369
+msgid "Your email address."
+msgstr "Ваша адреса е-поште."
+
+#: wp-admin/includes/network.php:360
+msgid "What would you like to call your network?"
+msgstr "Како желите да назовете своју мрежу?"
+
+#: wp-admin/includes/network.php:356 wp-admin/network/settings.php:153
+msgid "Network Title"
+msgstr "Наслов мреже"
+
+#: wp-admin/includes/network.php:335
+msgid "Because your installation is not new, the sites in your WordPress network must use sub-domains."
+msgstr "Зато што ваша инсталација није нова, веб места у вашој Вордпресовој мрежи морају да користе поддомене."
+
+#: wp-admin/includes/network.php:322
+msgid "Because your installation is in a directory, the sites in your WordPress network must use sub-directories."
+msgstr "Зато што је ваша инсталација у директоријуму, веб места у вашој Вордпресовој мрежи морају да користе поддиректоријуме."
+
+#: wp-admin/includes/network.php:312 wp-admin/includes/network.php:325
+#: wp-admin/includes/network.php:336
+msgid "The main site in a sub-directory installation will need to use a modified permalink structure, potentially breaking existing links."
+msgstr "Главно веб место у инсталацији у поддиректоријуму ће морати да користи измењену структуру сталне везе, што ће можда прекинути постојеће везе."
+
+#: wp-admin/includes/network.php:269 wp-admin/includes/network.php:283
+#: wp-admin/includes/network.php:343
+msgid "Server Address"
+msgstr "Адреса сервера"
+
+#. translators: 1: Host name.
+#: wp-admin/includes/network.php:251
+msgctxt "subdirectory examples"
+msgid "like <code>%1$s/site1</code> and <code>%1$s/site2</code>"
+msgstr "као <code>%1$s/vebmesto1</code> и <code>%1$s/vebmesto2</code>"
+
+#. translators: %s: User login.
+#: wp-admin/network/users.php:77
+msgid "Warning! User cannot be modified. The user %s is a network administrator."
+msgstr "Упозорење! Корисник не може бити измењен. Корисник %s је управник мреже."
+
+#: wp-admin/network/sites.php:32
+msgid "Hovering over each site reveals seven options (three for the primary site):"
+msgstr "Прелазак преко сваког веб места открива седам могућности (три за примарно веб место):"
+
+#: wp-admin/network/sites.php:38
+msgid "The site ID is used internally, and is not shown on the front end of the site or to users/viewers."
+msgstr "ID се интерно користи и није приказан на предњем делу веб места или корисницима/гледаоцима."
+
+#: wp-admin/network/sites.php:35
+msgid "Deactivate, Archive, and Spam which lead to confirmation screens. These actions can be reversed later."
+msgstr "Укључи, Искључи и Непољежно које воде ка екранима за потврђивање. Ове радње касније могу бити опозване."
+
+#: wp-admin/network/site-new.php:26
+msgid "If the admin email for the new site does not exist in the database, a new user will also be created."
+msgstr "Уколико управљачка адреса е-поште за ново веб место не постоји у бази података, нови корисник ће такође бити направљен."
+
+#: wp-admin/network/settings.php:51
+msgid "Operational settings has fields for the network&#8217;s name and admin email."
+msgstr "Извршна подешавања имају поља за назив мреже и управљачку е-пошту."
+
+#: wp-admin/network/settings.php:54
+msgid "Upload settings control the size of the uploaded files and the amount of available upload space for each site. You can change the default value for specific sites when you edit a particular site. Allowed file types are also listed (space separated only)."
+msgstr "Подешавања отпремања контролишу величину отпремљених датотека и количину доступног простора за отпремање сваког веб места. Можете променити подразумевану вредност за посебна веб места када уређујете посебно веб место. Дозвољене врсте датотека су такође наведене (раздвајено само размаком)."
+
+#: wp-admin/network/users.php:223
+msgid "The bulk action will permanently delete selected users, or mark/unmark those selected as spam. Spam users will have posts removed and will be unable to sign up again with the same email addresses."
+msgstr "Масовне радње ће трајно обрисати одабране кориснике, или означити/скинути ознаку оних изабраних као непожељних. Непожељним корисницима ће чланци бити уклоњени и биће онемогућени да се поново пријаве са истом адресом е-поште."
+
+#: wp-admin/network/users.php:221
+msgid "You can also go to the user&#8217;s profile page by clicking on the individual username."
+msgstr "Такође можете ићи на корисникову страницу профила притиском на појединачно корисничко име."
+
+#: wp-admin/network/sites.php:37
+msgid "Visit to go to the front-end site live."
+msgstr "Посетите за одлазак на предњу страну веб места."
+
+#: wp-admin/network/users.php:224
+msgid "You can make an existing user an additional super admin by going to the Edit User profile page and checking the box to grant that privilege."
+msgstr "Можете направити постојећег корисника додатни главним управником одлазећи на страницу уређивања профила корисника и штиклирањем кутијице  за давање те повластице."
+
+#: wp-admin/network/users.php:219
+msgid "This table shows all users across the network and the sites to which they are assigned."
+msgstr "Ова табела приказује све кориснике на мрежи и веб места на која су додељени."
+
+#: wp-admin/network/upgrade.php:24
+msgid "If a version update to core has not happened, clicking this button won&#8217;t affect anything."
+msgstr "Уколико ажурирање издања основе није извршено, притисак на дугме неће ништа погодити."
+
+#: wp-admin/network/upgrade.php:25
+msgid "If this process fails for any reason, users logging in to their sites will force the same update."
+msgstr "Уколико процес не успе из било ког разлога, корисници који се пријављују на своја веб места ће изазвати исто ажурирање."
+
+#: wp-admin/network/users.php:222
+msgid "You can sort the table by clicking on any of the table headings and switch between list and excerpt views by using the icons above the users list."
+msgstr "Можете поређати табелу притиском на било које од наслова табеле и мењањем између прегледа у списку и прегледа исечака користећи иконице изнад списка корисника."
+
+#: wp-admin/network/user-new.php:23
+msgid "Users who are signed up to the network without a site are added as subscribers to the main or primary dashboard site, giving them profile pages to manage their accounts. These users will only see Dashboard and My Sites in the main navigation until a site is created for them."
+msgstr "Корисници који су отворили налог на мрежи без веб места су додати као претплатници главном или примарном веб месту контролне табле, дајући им странице профила за управљање њиховиим налозима. Ови корисници ће видети само Контролну таблу и Моја веб места у главном кретању док веб место није направљено за њих."
+
+#: wp-admin/network/sites.php:31
+msgid "This is the main table of all sites on this network. Switch between list and excerpt views by using the icons above the right side of the table."
+msgstr "Ово је главна табела свих веб места у овој мрежи. Пребаците се између прегледа у списку и прегледа исечка користећи иконицу изнад десне стране табеле."
+
+#: wp-admin/network/settings.php:56
+msgid "Menu setting enables/disables the plugin menus from appearing for non super admins, so that only super admins, not site admins, have access to activate plugins."
+msgstr "Подешавања изборника омогућава/онемогућава изборнике додатка од појављивања за кориснике који нису главни управници тако да само главни управници, не управници веб места, имају приступ укључивању додатака."
+
+#: wp-admin/network/settings.php:52
+msgid "Registration settings can disable/enable public signups. If you let others sign up for a site, install spam plugins. Spaces, not commas, should separate names banned as sites for this network."
+msgstr "Подешавања регистрације могу укључити/искључити јавна отварања налога. Уколико дозволите другима да отварају веб место, поставите додатке против непожељних ствари. Размаци, не запете, требало би да раздвоје забрањене називе за ову мрежу."
+
+#: wp-admin/network/settings.php:50
+msgid "This screen sets and changes options for the network as a whole. The first site is the main site in the network and network options are pulled from that original site&#8217;s options."
+msgstr "Овај екран поставља и мења могућности за мрежу у целини. Прво веб место је главно веб место у мрежи и могућности мреже су повучене из могућности изворног веб места."
+
+#: wp-admin/network/themes.php:300
+msgid "If the network admin disables a theme that is in use, it can still remain selected on that site. If another theme is chosen, the disabled theme will not appear in the site&#8217;s Appearance > Themes screen."
+msgstr "Уколико управник мреже онемогући тему која је у употреби, и даље ће остати изабрана на том веб месту. Уколико је друга тема изабране, онемогућена тема се неће појављивати на екрану веб места Изглед > Теме."
+
+#: wp-admin/network/themes.php:299
+msgid "This screen enables and disables the inclusion of themes available to choose in the Appearance menu for each site. It does not activate or deactivate which theme a site is currently using."
+msgstr "Овај екран омогућава и онемогућава укључивање тема доступних за одабир у изборнику Изглед сваког веб места. Ово не укључује или искључује коју тему веб место сада користи."
+
+#: wp-admin/network/settings.php:53
+msgid "New site settings are defaults applied when a new site is created in the network. These include welcome email for when a new site or user account is registered, and what&#8127;s put in the first post, page, comment, comment author, and comment URL."
+msgstr "Подешавања новог веб места су подразумевано примењена када је ново веб место направљено у мрежо. Ово укључује е-поруку добродошлице када је ново веб место или кориснички налог регистрован и шта је стављено у првом чланку, страни, коментару, аутора коментара и URL коментара."
+
+#. translators: %s: Reserved names list.
+#: wp-admin/network/site-new.php:59
+msgid "The following words are reserved for use by WordPress functions and cannot be used as blog names: %s"
+msgstr "Следеће речи су заузете за коришћење од стране Вордпресових функција и не могу бити коришћене као називи блогова: %s"
+
+#: wp-admin/network/upgrade.php:124
+msgid "If your browser doesn&#8217;t start loading the next page automatically, click this link:"
+msgstr "Уколико ваш прегледач веба не почне да аутоматски учитава следећу страницу, притисните ову везу:"
+
+#: wp-admin/network/site-new.php:40
+msgid "Can&#8217;t create an empty site."
+msgstr "Није могуће направити празног корисника."
+
+#: wp-admin/network/settings.php:284
+msgid "If you want to ban domains from site registrations. One domain per line."
+msgstr "Уколико желите да забраните регистрације веб места одређеним доменима е-поште. Један домен по линији."
+
+#: wp-admin/network/settings.php:266
+msgid "If you want to limit site registrations to certain domains. One domain per line."
+msgstr "Уколико желите да ограничите регистрације веб места за одређене домене. Један домен по реду."
+
+#: wp-admin/network/sites.php:335
+msgid "Site removed from spam."
+msgstr "Веб место је враћено из непожељних."
+
+#: wp-admin/network/users.php:256
+msgid "Users removed from spam."
+msgstr "Корисници су уклоњени из непожељних."
+
+#: wp-admin/network/sites.php:308
+msgid "Sites removed from spam."
+msgstr "Веб места су враћена из непожељних."
+
+#: wp-admin/network/sites.php:311
+msgid "Sites marked as spam."
+msgstr "Веб места су означена као непожељна."
+
+#: wp-admin/network/sites.php:338
+msgid "Site marked as spam."
+msgstr "Веб место је означено као непожељно."
+
+#: wp-admin/network/sites.php:323
+msgid "Site archived."
+msgstr "Веб место је архивирано."
+
+#: wp-admin/network/users.php:259
+msgid "Users deleted."
+msgstr "Корисници су обрисани."
+
+#: wp-admin/network/sites.php:326
+msgid "Site unarchived."
+msgstr "Веб место је враћено из архиве."
+
+#: wp-admin/network/sites.php:329
+msgid "Site activated."
+msgstr "Веб место је укључено."
+
+#: wp-admin/network/sites.php:332
+msgid "Site deactivated."
+msgstr "Веб место је искључено."
+
+#: wp-admin/network/users.php:253
+msgid "Users marked as spam."
+msgstr "Корисници су означени као непожељни."
+
+#: wp-admin/network/sites.php:317
+msgid "Site deleted."
+msgstr "Веб место је обрисано."
+
+#: wp-admin/network/sites.php:314
+msgid "Sites deleted."
+msgstr "Веб места су обрисана."
+
+#: wp-admin/network/sites.php:105 wp-admin/network/sites.php:223
+msgid "Sorry, you are not allowed to change the current site."
+msgstr "Жао нам је, није вам дозвољено да мењате тренутно веб место."
+
+#: wp-admin/network/site-new.php:126
+msgid "There was an error creating the user."
+msgstr "Десила се грешка приликом прављења корисника."
+
+#: wp-admin/network/settings.php:392
+msgid "Upload file types"
+msgstr "Врсте датотека за отпремање"
+
+#. translators: %s: Number of megabytes to limit uploads to.
+#: wp-admin/network/settings.php:380
+msgid "Limit total size of files uploaded to %s MB"
+msgstr "Ограничи укупну величину отпремљених датотека на %s MB"
+
+#: wp-admin/network/settings.php:366
+msgid "The URL for the first comment on a new site."
+msgstr "URL првог коментара на новом веб месту."
+
+#: wp-admin/network/settings.php:339
+msgid "The first comment on a new site."
+msgstr "Први коментар на новом веб месту."
+
+#: wp-admin/network/settings.php:329
+msgid "The first page on a new site."
+msgstr "Прва страна на новом веб месту."
+
+#: wp-admin/network/settings.php:319
+msgid "The first post on a new site."
+msgstr "Први чланак на новом веб месту."
+
+#: wp-admin/network/settings.php:348
+msgid "The author of the first comment on a new site."
+msgstr "Аутор првог коментара на новом веб месту."
+
+#: wp-admin/network/upgrade.php:73
+msgid "All done!"
+msgstr "Све је завшрено!"
+
+#: wp-admin/network/settings.php:203
+msgid "Registration is disabled"
+msgstr "Регистрације су онемогућене"
+
+#: wp-admin/network/settings.php:204
+msgid "User accounts may be registered"
+msgstr "Кориснички налози могу бити регистровани"
+
+#: wp-admin/network/settings.php:206
+msgid "Both sites and user accounts can be registered"
+msgstr "И веб места и кориснички налози могу бити регистровани"
+
+#: wp-admin/network/settings.php:205
+msgid "Logged in users may register new sites"
+msgstr "Пријављени корисници могу регистровати нова веб места"
+
+#: wp-admin/network/settings.php:190
+msgid "Registration Settings"
+msgstr "Подешавања регистрације"
+
+#: wp-admin/network/settings.php:290
+msgid "New Site Settings"
+msgstr "Подешавања новог веб места"
+
+#: wp-admin/network/settings.php:371
+msgid "Upload Settings"
+msgstr "Подешавања отпремања"
+
+#: wp-admin/network/settings.php:150
+msgid "Operational Settings"
+msgstr "Оперативна подешавања"
+
+#: wp-admin/network/settings.php:476
+msgid "Enable administration menus"
+msgstr "Омогући управљачке изборнике"
+
+#: wp-admin/network/site-new.php:91
+msgid "Missing email address."
+msgstr "Адреса е-поште недостаје."
+
+#: wp-admin/network/site-new.php:87
+msgid "Missing or invalid site address."
+msgstr "Адреса веб места недостаје или је неисправна."
+
+#: wp-admin/network/upgrade.php:124
+msgid "Next Sites"
+msgstr "Следећа веб места"
+
+#: wp-admin/network/settings.php:247
+msgid "Users are not allowed to register these sites. Separate names by spaces."
+msgstr "Корисницима није дозвољено да региструју ова веб места. Раздвојите имена белинама."
+
+#: wp-admin/network/settings.php:231
+msgid "Send the network admin an email notification every time someone registers a site or user account"
+msgstr "Пошаљи обавештење е-поштом управнику мреже кад год неко региструје веб место или кориснички налог"
+
+#: wp-admin/network/settings.php:374
+msgid "Site upload space"
+msgstr "Простор за отпремање веб места"
+
+#: wp-admin/network/settings.php:299
+msgid "The welcome email sent to new site owners."
+msgstr "Е-порука добродошлице је послата новим власницима веб места."
+
+#. translators: New site notification email subject. %s: Network title.
+#: wp-admin/network/site-new.php:152
+msgid "[%s] New Site Created"
+msgstr "[%s] Ново веб место је направљено"
+
+#: wp-admin/includes/network.php:365 wp-admin/network/settings.php:160
+msgid "Network Admin Email"
+msgstr "Управљачка е-пошта мреже"
+
+#: wp-admin/network/site-new.php:287
+msgid "A new user will be created if the above email address is not in the database."
+msgstr "Нови корисник ће бити направљен ако адреса е-поште изнад није у нашој бази података."
+
+#: wp-admin/network/site-new.php:283
+msgid "Admin Email"
+msgstr "Управљачка е-пошта"
+
+#: wp-admin/network/site-new.php:299
+msgid "Add Site"
+msgstr "Додај веб место"
+
+#: wp-admin/network/settings.php:426
+msgid "Default Language"
+msgstr "Подразумевани језик"
+
+#: wp-admin/network/settings.php:402
+msgid "Max upload file size"
+msgstr "Највиша дозвољена величина датотеке за отпремање"
+
+#: wp-admin/network/settings.php:362
+msgid "First Comment URL"
+msgstr "URL првог коментара"
+
+#: wp-admin/network/settings.php:344
+msgid "First Comment Author"
+msgstr "Аутор првог коментара"
+
+#: wp-admin/network/settings.php:334
+msgid "First Comment"
+msgstr "Први коментар"
+
+#: wp-admin/network/settings.php:324
+msgid "First Page"
+msgstr "Прва страна"
+
+#: wp-admin/network/settings.php:309
+msgid "The welcome email sent to new users."
+msgstr "Е-порука добродошлице је послата новим корисницима."
+
+#: wp-admin/network/settings.php:304
+msgid "Welcome User Email"
+msgstr "Е-порука добродошлице корисника"
+
+#: wp-admin/network/settings.php:294
+msgid "Welcome Email"
+msgstr "Е-порука добродошлице"
+
+#: wp-admin/network/settings.php:272
+msgid "Banned Email Domains"
+msgstr "Забрањени домени е-поште"
+
+#: wp-admin/network/settings.php:253
+msgid "Limited Email Registrations"
+msgstr "Ограничене регистрације е-поште"
+
+#: wp-admin/network/settings.php:243
+msgid "Banned Names"
+msgstr "Забрањена имена"
+
+#: wp-admin/network/settings.php:236
+msgid "Add New Users"
+msgstr "Додај нове кориснике"
+
+#: wp-admin/network/settings.php:224
+msgid "Registration notification"
+msgstr "Обавештења о регистрацији"
+
+#: wp-admin/network/settings.php:193
+msgid "Allow new registrations"
+msgstr "Дозволи нове регистрације"
+
+#: wp-admin/network/site-users.php:272
+msgid "Duplicated username or email address."
+msgstr "Дуплирано корисничко име или адреса е-поште."
+
+#: wp-admin/network/user-new.php:41
+msgid "Cannot create an empty user."
+msgstr "Није могуће направити празног корисника."
+
+#: wp-admin/network/sites.php:121 wp-admin/network/sites.php:208
+msgid "Confirm"
+msgstr "Потврди"

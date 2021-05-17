@@ -1,0 +1,413 @@
+@charset "UTF-8";
+/*
+Theme Name: Centar za razvoj
+Theme URI: https://webcon.rs
+Author: Slobodan Miric
+Description: Flexbox - Sass WP theme
+Version: 1.0
+*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700&display=swap");
+/* rgb(11, 34, 61) */
+/* rgb(0, 174, 239) */
+/*****************
+basic styles
+*****************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  color: #0b223d;
+  line-height: 1.5;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+}
+
+a {
+  color: #0b223d;
+  text-decoration: none;
+}
+a:hover {
+  color: #00aeef;
+  transition: 0.3s ease;
+}
+
+ul {
+  list-style: none;
+}
+
+h2 {
+  font-size: 3rem;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  h2 {
+    font-size: 2rem;
+  }
+}
+h2::after {
+  display: block;
+  content: "";
+  width: 20%;
+  height: 15px;
+  background: linear-gradient(40deg, #00aeef, #fff);
+  margin: 10px auto 30px auto;
+}
+
+/*****************
+nav
+*****************/
+nav {
+  background: #fff;
+  padding: 5px 0;
+}
+nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+@media (max-width: 768px) {
+  nav .container {
+    flex-direction: column;
+  }
+}
+nav .container img {
+  width: 100px;
+  height: auto;
+}
+nav .container ul {
+  display: flex;
+}
+nav .container ul li {
+  text-transform: uppercase;
+  margin-left: 40px;
+}
+@media (max-width: 768px) {
+  nav .container ul li {
+    margin: 10px;
+  }
+}
+
+/*****************
+homeHeader
+*****************/
+.homeHeader {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.99), rgba(11, 34, 61, 0.1)), url(img/header.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 80vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+@media (max-width: 768px) {
+  .homeHeader {
+    height: 60vh;
+  }
+}
+.homeHeader h1 {
+  font-size: 3rem;
+  color: #fff;
+  text-align: right;
+  background: rgba(0, 174, 239, 0.5);
+  padding: 30px 30px 30px 60px;
+  border-radius: 200px 0 0 0;
+  text-shadow: 0 0 3px #0b223d;
+}
+@media (max-width: 768px) {
+  .homeHeader h1 {
+    font-size: 2rem;
+    border-radius: 100px 0 0 0;
+  }
+}
+
+/*****************
+o nama
+*****************/
+.onama {
+  padding: 50px 0;
+}
+.onama h3 {
+  font-size: 1.7rem;
+  margin: 10px 0;
+}
+.onama li::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "";
+  color: #00aeef;
+  margin-right: 10px;
+}
+.onama button {
+  padding: 15px 30px;
+  background: linear-gradient(to left, #0b223d, #00aeef);
+  border: none;
+  font-size: 1rem;
+  color: #fff;
+  display: block;
+  margin: 30px auto 0 auto;
+  border-radius: 20px 0 20px 0;
+}
+.onama button:hover {
+  background: linear-gradient(to right, #0b223d, #00aeef);
+  border-radius: 0 20px 0 20px;
+  cursor: pointer;
+}
+
+/*****************
+usluge
+*****************/
+.usluge {
+  text-align: center;
+  padding: 50px 0;
+  background: linear-gradient(rgba(0, 174, 239, 0.8), rgba(0, 174, 239, 0.8)), url(img/bg.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 400px 0 0 0;
+}
+@media (max-width: 768px) {
+  .usluge {
+    border-radius: 150px 0 0 0;
+  }
+}
+.usluge .container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.usluge .container article {
+  flex: 0 0 50%;
+  padding: 20px;
+}
+@media (max-width: 768px) {
+  .usluge .container article {
+    flex: 0 0 100%;
+  }
+}
+.usluge .container article i {
+  font-size: 2rem;
+}
+.usluge .container article p {
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+/*****************
+mentorskeUsluge
+*****************/
+.mentorskeUsluge {
+  padding: 50px 0;
+}
+.mentorskeUsluge button {
+  padding: 15px 30px;
+  background: linear-gradient(to left, #0b223d, #00aeef);
+  border: none;
+  font-size: 1rem;
+  color: #fff;
+  display: block;
+  margin: 30px auto 0 auto;
+  border-radius: 20px 0 20px 0;
+}
+.mentorskeUsluge button:hover {
+  background: linear-gradient(to right, #0b223d, #00aeef);
+  border-radius: 0 20px 0 20px;
+  cursor: pointer;
+}
+
+/*****************
+preporuke
+*****************/
+.preporuke {
+  padding: 50px 0;
+  background: linear-gradient(rgba(0, 174, 239, 0.8), rgba(0, 174, 239, 0.8)), url(img/bg.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 0 400px 0 0;
+}
+@media (max-width: 768px) {
+  .preporuke {
+    border-radius: 0 150px 0 0;
+  }
+}
+.preporuke .container {
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.preporuke .container article {
+  flex: 0 0 40%;
+}
+@media (max-width: 768px) {
+  .preporuke .container article {
+    flex: 0 0 100%;
+    margin-bottom: 40px;
+  }
+}
+.preporuke .container article img {
+  width: 60%;
+  height: auto;
+  border-radius: 50%;
+}
+.preporuke .container article h4 {
+  color: #fff;
+  font-size: 1.4rem;
+}
+.preporuke .container article h4 span {
+  font-size: 0.8rem;
+  color: #0b223d;
+}
+
+/*****************
+footer
+*****************/
+footer {
+  padding: 30px 0;
+  text-align: center;
+  background: #0b223d;
+  color: #fff;
+}
+footer a {
+  color: #00aeef;
+}
+footer a:hover {
+  color: #fff;
+}
+
+/*****************
+headers
+*****************/
+.headers {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.99), rgba(0, 174, 239, 0.6)), url(img/bg.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
+}
+@media (max-width: 768px) {
+  .headers {
+    height: 40vh;
+  }
+}
+.headers .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+}
+.headers .container h1 {
+  font-size: 3rem;
+  color: #fff;
+  background: #0b223d;
+  clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+  padding: 50px 150px 50px 50px;
+  text-shadow: 0 0 3px #00aeef;
+}
+@media (max-width: 768px) {
+  .headers .container h1 {
+    font-size: 2rem;
+  }
+}
+
+/*****************
+blog
+*****************/
+.blog .container {
+  padding: 50px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.blog .container article {
+  flex: 0 0 60%;
+}
+.blog .container article .featured-image img {
+  width: 100%;
+  height: auto;
+}
+.blog .container article .post {
+  border: 1px solid #0b223d;
+  margin-bottom: 40px;
+}
+.blog .container article .post .text {
+  padding: 30px;
+}
+.blog .container article .post .text h3 {
+  font-size: 2rem;
+}
+.blog .container article .post .text .meta {
+  background: linear-gradient(to right, #0b223d, #00aeef);
+  border-radius: 0 20px 0 20px;
+  color: #fff;
+  display: inline-block;
+  padding: 5px;
+}
+.blog .container article .post .text p {
+  padding: 20px 0 0 0;
+}
+.blog .container article .post .text .btn {
+  padding: 15px 30px;
+  background: linear-gradient(to left, #0b223d, #00aeef);
+  border: none;
+  font-size: 1rem;
+  color: #fff;
+  display: block;
+  margin: 30px auto 0 auto;
+  border-radius: 20px 0 20px 0;
+  display: inline-block;
+}
+.blog .container article .post .text .btn:hover {
+  background: linear-gradient(to right, #0b223d, #00aeef);
+  border-radius: 0 20px 0 20px;
+  cursor: pointer;
+}
+.blog .container article .projekti {
+  border: 1px solid #0b223d;
+  margin-bottom: 40px;
+}
+.blog .container article .projekti .text {
+  padding: 30px;
+}
+.blog .container article .projekti .text h3 {
+  font-size: 2rem;
+}
+.blog .container article .projekti .text p {
+  padding: 20px 0 0 0;
+}
+.blog .container article .projekti .text .btn {
+  padding: 15px 30px;
+  background: linear-gradient(to left, #0b223d, #00aeef);
+  border: none;
+  font-size: 1rem;
+  color: #fff;
+  display: block;
+  margin: 30px auto 0 auto;
+  border-radius: 20px 0 20px 0;
+  display: inline-block;
+}
+.blog .container article .projekti .text .btn:hover {
+  background: linear-gradient(to right, #0b223d, #00aeef);
+  border-radius: 0 20px 0 20px;
+  cursor: pointer;
+}
+.blog .container aside {
+  flex: 0 0 35%;
+}
+.blog .container aside .widget {
+  background: radial-gradient(#fff, #00aeef);
+  padding: 80px 140px;
+  clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+  margin-bottom: 40px;
+}
+
+/*# sourceMappingURL=style.css.map */

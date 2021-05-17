@@ -1,0 +1,355 @@
+# Translation of Themes - Twenty Sixteen in Serbian
+# This file is distributed under the same license as the Themes - Twenty Sixteen package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-02-21 22:53:01+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: sr_RS\n"
+"Project-Id-Version: Themes - Twenty Sixteen\n"
+
+#: functions.php:204
+msgid "Bright Red"
+msgstr "Јарко црвена"
+
+#: functions.php:199
+msgid "Dark Red"
+msgstr "Тамно црвена"
+
+#: functions.php:194
+msgid "Medium Brown"
+msgstr "Средње браон"
+
+#: functions.php:189
+msgid "Dark Brown"
+msgstr "Тамно браон"
+
+#: functions.php:184
+msgid "Light Blue"
+msgstr "Светло плава"
+
+#: functions.php:179
+msgid "Bright Blue"
+msgstr "Светло плава"
+
+#: functions.php:174
+msgid "Blue Gray"
+msgstr "Плаво сива"
+
+#: functions.php:169
+msgid "White"
+msgstr "Бела"
+
+#: functions.php:164
+msgid "Light Gray"
+msgstr "Светло сива"
+
+#: functions.php:159
+msgid "Medium Gray"
+msgstr "Средње сива"
+
+#: functions.php:154
+msgid "Dark Gray"
+msgstr "Тамно сива"
+
+#. translators: %s: Post title.
+#: template-parts/content.php:29 inc/template-tags.php:195
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "Настави са читањем<span class=\"screen-reader-text\"> \"%s\"</span>"
+
+#. translators: %s: Post title.
+#: image.php:88 template-parts/content-page.php:39
+#: template-parts/content.php:53 template-parts/content-search.php:28
+#: template-parts/content-search.php:43 template-parts/content-single.php:47
+msgid "Edit<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "Уреди<span class=\"screen-reader-text\"> \"%s\"</span>"
+
+#: inc/customizer.php:347
+msgid "Red"
+msgstr "Црвена"
+
+#. translators: %s: Post title.
+#: comments.php:31
+msgctxt "comments title"
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr "Једно мишљење на &#0132;%s&#0147;"
+
+#: searchform.php:16
+msgctxt "submit button"
+msgid "Search"
+msgstr "Претражи"
+
+#: searchform.php:14
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "Претрага &hellip;"
+
+#: searchform.php:13
+msgctxt "label"
+msgid "Search for:"
+msgstr "Претрага за:"
+
+#: footer.php:30
+msgid "Footer Social Links Menu"
+msgstr "Изборник друштвених веза у подножју"
+
+#: footer.php:17
+msgid "Footer Primary Menu"
+msgstr "Примарни изборник у подножју"
+
+#: functions.php:269
+msgid "Add widgets here to appear in your sidebar."
+msgstr "Овде додајте виџете како би се појавили у вашој бочној траци."
+
+#: template-parts/content.php:14
+msgid "Featured"
+msgstr "Издвојено"
+
+#: template-parts/content-none.php:33
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Изгледа да не можемо да пронађемо оно што сте тражили. Можда ће претраживање помоћи."
+
+#: template-parts/content-none.php:28
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Жао нам је, али ништа не одговара вашем упиту. Молимо вас да покушате поново са другим кључним речима."
+
+#. translators: %s: Post editor URL.
+#: template-parts/content-none.php:22
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Спремни сте да објавите свој први чланак? <a href=\"%1$s\">Започните овде</a>."
+
+#: template-parts/content-none.php:13
+msgid "Nothing Found"
+msgstr "Ништа није пронађено"
+
+#. translators: %s: The post author display name.
+#: template-parts/biography.php:35
+msgid "View all posts by %s"
+msgstr "Види све чланке од %s"
+
+#: template-parts/biography.php:28
+msgid "Author:"
+msgstr "Аутор:"
+
+#: single.php:42
+msgid "Previous post:"
+msgstr "Претходни чланак:"
+
+#: single.php:41
+msgid "Previous"
+msgstr "Претходно"
+
+#: single.php:39
+msgid "Next post:"
+msgstr "Следећи чланак:"
+
+#: single.php:38
+msgid "Next"
+msgstr "Следеће"
+
+#. translators: %s: The search query.
+#: search.php:21
+msgid "Search Results for: %s"
+msgstr "Резултати претраживања за: %s"
+
+#: inc/template-tags.php:113
+msgctxt "Used before tag names."
+msgid "Tags"
+msgstr "Ознаке"
+
+#: inc/template-tags.php:104
+msgctxt "Used before category names."
+msgid "Categories"
+msgstr "Категорије"
+
+#: inc/template-tags.php:100 inc/template-tags.php:109
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr ", "
+
+#: inc/template-tags.php:84
+msgctxt "Used before publish date."
+msgid "Posted on"
+msgstr "Објављено"
+
+#: inc/template-tags.php:40
+msgctxt "Used before post format."
+msgid "Format"
+msgstr "Облик"
+
+#. translators: %s: Post title.
+#: inc/template-tags.php:53
+msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "Оставите коментар<span class=\"screen-reader-text\"> на %s</span>"
+
+#: inc/template-tags.php:26
+msgctxt "Used before post author name."
+msgid "Author"
+msgstr "Аутор"
+
+#: functions.php:209 inc/customizer.php:357
+msgid "Yellow"
+msgstr "Жута"
+
+#: inc/customizer.php:337
+msgid "Gray"
+msgstr "Сива"
+
+#: inc/customizer.php:327
+msgid "Dark"
+msgstr "Тамна"
+
+#: inc/customizer.php:221
+msgid "Main Text Color"
+msgstr "Главна боја текста"
+
+#: inc/customizer.php:317
+msgid "Default"
+msgstr "Подразумевана"
+
+#: inc/customizer.php:242
+msgid "Secondary Text Color"
+msgstr "Секундарна боја текста"
+
+#: inc/customizer.php:200
+msgid "Link Color"
+msgstr "Боја везе"
+
+#: inc/customizer.php:176
+msgid "Page Background Color"
+msgstr "Боја позадине заглавља"
+
+#: single.php:31 image.php:107
+msgctxt "Parent post link"
+msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%title</span>"
+msgstr "<span class=\"meta-nav\">Објављено под</span><span class=\"post-title\">%title</span>"
+
+#. translators: %s: The current WordPress version.
+#: inc/back-compat.php:42 inc/back-compat.php:56 inc/back-compat.php:75
+msgid "Twenty Sixteen requires at least WordPress version 4.4. You are running version %s. Please upgrade and try again."
+msgstr "Twenty Sixteen захтева издање Вордпреса најмање 4.4. Користите издање %s. Молимо вас да ажурирате и покушате поново."
+
+#: inc/customizer.php:153
+msgid "Base Color Scheme"
+msgstr "Основна шема боја"
+
+#: image.php:77
+msgctxt "Used before full size attachment link."
+msgid "Full size"
+msgstr "Пуна величина"
+
+#: image.php:58 template-parts/content-page.php:24
+#: template-parts/content.php:36 template-parts/content-single.php:26
+msgid "Pages:"
+msgstr "Стране:"
+
+#: image.php:26
+msgid "Next Image"
+msgstr "Следећа слика"
+
+#: image.php:25
+msgid "Previous Image"
+msgstr "Претходна слика"
+
+#: header.php:50
+msgid "Menu"
+msgstr "Изборник"
+
+#: header.php:28
+msgid "Skip to content"
+msgstr "Скочи на садржај"
+
+#: functions.php:419
+msgid "expand child menu"
+msgstr "прошири изборник дете"
+
+#: functions.php:420
+msgid "collapse child menu"
+msgstr "скупи изборник дете"
+
+#: functions.php:338
+msgctxt "Inconsolata font: on or off"
+msgid "on"
+msgstr "off"
+
+#: functions.php:279
+msgid "Content Bottom 1"
+msgstr "Дно садржаја 1"
+
+#: functions.php:281 functions.php:293
+msgid "Appears at the bottom of the content on posts and pages."
+msgstr "Појављује се на дну садржаја на чланцима и странама."
+
+#: functions.php:291
+msgid "Content Bottom 2"
+msgstr "Дно садржаја 2"
+
+#: functions.php:322
+msgctxt "Merriweather font: on or off"
+msgid "on"
+msgstr "off"
+
+#: functions.php:330
+msgctxt "Montserrat font: on or off"
+msgid "on"
+msgstr "off"
+
+#: functions.php:267
+msgid "Sidebar"
+msgstr "Бочна трака"
+
+#: functions.php:93 header.php:67
+msgid "Social Links Menu"
+msgstr "Изборник друштвених веза"
+
+#: functions.php:92 header.php:54
+msgid "Primary Menu"
+msgstr "Примарни изборник"
+
+#. translators: %s: WordPress
+#: footer.php:63
+msgid "Proudly powered by %s"
+msgstr "Са поносом покреће %s"
+
+#: comments.php:71
+msgid "Comments are closed."
+msgstr "Затворено за коментаре."
+
+#. translators: 1: Number of comments, 2: Post title.
+#: comments.php:35
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s мишљењa на &#0132;%2$s&#0147;"
+msgstr[1] "%1$s мишљења на &#0132;%2$s&#0147;"
+msgstr[2] "%1$s мишљења на &#0132;%2$s&#0147;"
+
+#: image.php:62 template-parts/content-page.php:28
+#: template-parts/content.php:40 template-parts/content-single.php:30
+#: search.php:46 archive.php:54 index.php:51
+msgid "Page"
+msgstr "Страна"
+
+#: search.php:45 archive.php:53 index.php:50
+msgid "Next page"
+msgstr "Следећа страна"
+
+#: search.php:44 archive.php:52 index.php:49
+msgid "Previous page"
+msgstr "Претходна страна"
+
+#: 404.php:21
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "Изгледа да ништа није пронађено на овом месту. Можда да покушате претраживање?"
+
+#: 404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Упс! Та страница не може бити пронађена."
+
+#. Author URI of the theme
+#: footer.php:60
+msgid "https://wordpress.org/"
+msgstr "https://sr.wordpress.org/"
