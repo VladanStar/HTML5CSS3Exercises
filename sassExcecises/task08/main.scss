@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
+
+$bodyFont: "Open Sans", sans-serif;
+$headingsFont: "Caveat", cursive;
+$font: 16px;
+$whithe: #fff;
+$orange: orangered;
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.underline {
+    display: block;
+    content: "";
+    width: 200px;
+    height: 2px;
+    background: $orange;
+    margin: 30px auto 0 auto;
+}
+
+body {
+  font-family: $bodyFont;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $headingsFont;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0, 0.5)),
+    url(./img/header.jpg);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: $whithe;
+  p {
+    font-size: 2rem;
+    font-weight: 300;
+    &::after {
+      @extend .underline;
+      background: yellow;
+    }
+  }
+  h1 {
+    font-size: 7rem;
+  }
+}

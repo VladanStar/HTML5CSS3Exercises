@@ -1,0 +1,292 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Open+Sans:wght@300;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background: #eee;
+  color: #444;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Caveat", cursive;
+  line-height: 1;
+}
+
+.underline, header p::after, .uvod article .text h4::after, .cta h4::after {
+  display: block;
+  content: "";
+  width: 200px;
+  height: 2px;
+  background: orangered;
+  margin: 30px auto 0 auto;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+}
+
+/************
+header
+************/
+header {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(img/header.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/header.jpg);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  header {
+    height: 70vh;
+  }
+}
+
+header p {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+@media (max-width: 768px) {
+  header p {
+    font-size: 1.6rem;
+  }
+}
+
+header h1 {
+  font-size: 7rem;
+}
+
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 4rem;
+  }
+}
+
+/************
+uvod
+************/
+.uvod {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 70px 0;
+  text-align: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.uvod article {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 48%;
+          flex: 0 0 48%;
+}
+
+@media (max-width: 768px) {
+  .uvod article {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+  }
+}
+
+.uvod article img {
+  width: 100%;
+}
+
+.uvod article .text {
+  background: #fff;
+  padding: 40px;
+  position: relative;
+  top: -15px;
+}
+
+.uvod article .text h4 {
+  margin: 20px 0;
+  font-size: 1.2rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+}
+
+.uvod article .text h4::after {
+  width: 70px;
+}
+
+.uvod article .text h2 {
+  margin: 20px 0;
+  font-size: 2.5rem;
+}
+
+.uvod article .text button {
+  padding: 15px 30px;
+  background: orangered;
+  margin-top: 30px;
+  font-size: 1rem;
+  border: none;
+  text-transform: uppercase;
+}
+
+.uvod article .text button:hover {
+  cursor: pointer;
+  background: #444;
+  color: #fff;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+/************
+cta
+************/
+.cta {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(img/cta.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/cta.jpg);
+  height: 60vh;
+  background-position: center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+  text-align: center;
+}
+
+.cta h4 {
+  font-size: 1.7rem;
+  font-weight: 300;
+  font-family: "Open Sans", sans-serif;
+}
+
+@media (max-width: 768px) {
+  .cta h4 {
+    font-size: 1.2rem;
+  }
+}
+
+.cta h2 {
+  font-size: 6rem;
+}
+
+@media (max-width: 768px) {
+  .cta h2 {
+    font-size: 3rem;
+    margin-top: 20px;
+  }
+}
+
+/************
+galerija
+************/
+.galerija {
+  padding: 70px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.galerija article {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 48%;
+          flex: 0 0 48%;
+  margin-bottom: 60px;
+}
+
+@media (max-width: 768px) {
+  .galerija article {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+  }
+}
+
+.galerija article img {
+  width: 100%;
+  border: 15px solid #fff;
+  -webkit-box-shadow: 0 0 20px #999;
+          box-shadow: 0 0 20px #999;
+  border-radius: 10px;
+}
+
+.galerija article img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition-duration: .7s;
+          transition-duration: .7s;
+  border: 15px solid orangered;
+}
+
+/************
+footer
+************/
+footer {
+  padding: 40px 0;
+  text-align: center;
+  background: #444;
+}
+
+footer a {
+  color: orangered;
+  margin: 0 20px;
+}
+
+footer a i {
+  font-size: 2rem;
+}
+
+footer a:hover {
+  color: #eee;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+footer p {
+  color: #eee;
+  margin-top: 30px;
+  font-size: 1rem;
+}
+/*# sourceMappingURL=main.css.map */
