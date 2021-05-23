@@ -1,0 +1,44 @@
+.nav-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  color: white;
+  background: #2c3e50; }
+
+header {
+  margin-top: 56px;
+  color: white;
+  background: #18bc9c; }
+
+.entry {
+  background: #18bc9c; }
+
+.entry-img {
+  display: block;
+  margin: 0 auto; }
+
+/*# sourceMappingURL=main.css.map */
+
+.simbol {
+  width: 100%;
+  text-align: center; }
+
+.linija {
+  display: inline-block;
+  border-top: 4px solid white; 
+  width: 60px;
+  height: 20px;
+ }
+
+.zvjezdica {
+  display: inline-block;
+  position: relative;
+  margin: 0px 12px;
+  font-size: 24px;
+  top:-8px;
+ }
+
+.crna-linija {
+  border-top: 4px solid black;
+}

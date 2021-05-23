@@ -1,0 +1,65 @@
+.prvi {
+    list-style-type: circle;
+}
+
+.drugi {
+    list-style-type: square;
+}
+
+.treci {
+    list-style-type: upper-alpha;
+}
+
+.cetvrti {
+    list-style-type: upper-roman;
+}
+
+.peti, .sesti {
+    list-style-image: url(icon.gif);
+    width: 200px;
+
+}
+
+.sesti {
+    list-style-position: inside;
+}
+
+table {
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+}
+
+table tr th {
+    background-color: red;
+    color: white;
+    padding: 10px 0;
+}
+
+table tr td {
+    padding: 0;
+    line-height: 0;
+}
+
+table tr td img {
+    height: 100%;
+}
+
+table tr:hover td {
+    background-color: yellow;
+}
+
+table tr:nth-child(odd) td {
+    background-color: #ccc;
+}
+
+table tr:nth-child(odd):hover td {
+    background-color: yellow;
+}
+
+table tr td:nth-child(2) {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+

@@ -1,0 +1,219 @@
+@import"variables";
+@import"mixins";
+@import "fonts";
+
+.nav-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    @include color-and-bcg-color(white, #2c3e50);
+
+}
+
+
+ @media only screen and (min-width: 767px) {
+       #transparent {
+        background-color: transparent;
+    }
+}
+
+#slovo {
+    color: white;
+    font-family: "latobold";
+}
+
+h2 {
+    font-family: "latobold";
+}
+
+h1 {
+    font-family: "latoblack";
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color:white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+.navbar-light .navbar-nav .nav-link.disabled {
+    color:white;
+}
+
+.collapse.navbar-collapse {
+  @media only screen and (min-width: 992px) {
+    justify-content: flex-end;
+    flex-grow: 0;
+  }
+}
+
+.bgcolor{
+    background: #18bc9c;
+    border-color: #18bc9c;
+}
+
+.nav-menu {
+    color: white;
+    margin: 0 0;
+    p{
+        margin: 10px auto;
+    }
+    }
+
+header {
+    margin-top: 56px;
+    @include color-and-bcg-color(white, #18bc9c);
+    text-align: center;
+}
+header h2 {
+    padding-top:50px;
+    margin-bottom: 30px;
+}
+
+header h5 {
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+main h1 {
+    position: relative;
+    top:20px;
+    text-align: center;
+    margin: 30px auto;
+ }
+
+.entry {
+   background: $green-color;
+
+}
+.entry-img {
+    display: block;
+    margin: 20px auto;
+    position: relative;
+    top: 20px;
+
+}
+
+.images {
+    img {
+        margin-top:20px;
+        display: block;
+        width: 100%;
+    }
+}
+
+.about {
+    @include color-and-bcg-color(white, #18bc9c);
+
+}
+
+.find-out-more {
+    text-align: center;
+}
+
+.btn-outline-light {
+    margin-bottom: 70px;
+
+}
+
+footer {
+    margin-top: 30px;
+    @include color-and-bcg-color(white, #2c3e50);
+}
+
+.rights {
+    text-align: center;
+}
+
+.linija {
+    display: inline-block;
+    height: 20px;
+    width: 80px;
+    border-top: 5px solid rgb(255, 255, 255);
+
+}
+
+.star {
+    display: inline-block;
+    margin: 0px 10px;
+    position: relative;
+    top: -10px;
+    font-size: 28px;
+}
+
+.divic {
+    width: 100%;
+    text-align: center;
+}
+
+.crna-linija {
+    border-top: 5px solid rgb(0,0,0);
+    display: inline-block;
+    height: 20px;
+    width: 80px;
+}
+
+.div-align {
+    text-align: center;
+}
+
+
+
+.margins {
+    margin-top: 24px;
+    margin-bottom: 33px;
+}
+
+
+.icons {
+
+    display: inline-block;
+    color: white;
+    border: 1px solid white;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    padding: 10px;
+
+}
+
+.margin-bottom {
+    margin-bottom: 0px;
+}
+
+
+h3 {
+    font-family: "latobold";
+    margin-bottom: 20px;
+}
+
+.around {
+    margin-bottom: 32px;
+}
+
+
+main h1 {
+    padding-top: 30px;
+}
+
+
+
+.form-control {
+    border-top:0px;
+    border-left:0px;
+    border-right:0px;
+}
+
+#grey {
+    color:#495057;
+}
+
+@media only screen and (mix-width: 767px) {
+    background-color: transparent;
+}

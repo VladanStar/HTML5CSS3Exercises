@@ -1,0 +1,14 @@
+CSS Project
+
+Project should be done using the mobile first approach, where first you do the mobile version (of a section or the whole page), and then you adapt that layout for tablet and desktop.
+
+Mobile layout	-  https://goo.gl/D5W16v
+Tablet layout	-  https://goo.gl/EztCCm
+Desktop layout 	-  https://goo.gl/iBYCcG
+
+Assets (images and fonts) -  https://goo.gl/v28VR1
+
+Breakpoints:
+Mobile
+Tablets - 768px
+Desktop - 1200px

@@ -1,0 +1,63 @@
+* {
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-size: 17px;
+   font-weight: bolder;
+}
+@font-face {
+    font-family: 'mis';
+    src: url('./novifont/opensans-regular-webfont.woff') format('woff2'),
+         url('./novifont/opensans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.par{
+    
+    font-family: 'Roboto Slab', serif;
+    text-transform: uppercase;
+    text-decoration: underline; 
+    text-align: left; 
+}
+.par2 {
+    font-style: oblique;
+    font-family: mis;
+    text-transform: lowercase;
+    text-decoration: line-through;
+    line-height: 200%;
+    text-align: right;
+}
+.par3 {
+    text-align: center;
+}
+.quote2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
+}
+.sp {
+    font-weight: 30px;
+    font-style: italic;
+}
+
+.idiot {
+    font-family: 'Roboto Slab', serif;
+
+}
+
+.lista {
+    background-color: rgb(46, 197, 197);
+    text-shadow: 3px;
+
+}
+a:link{
+    color:red;
+}
+a:visited {
+    color: black;
+}
+a:hover {
+    color: green;
+}
+a:active {
+    color: rgb(46, 46, 179);
+}

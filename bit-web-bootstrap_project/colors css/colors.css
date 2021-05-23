@@ -1,0 +1,23 @@
+.casa{
+    background-color: rgb(0, 206, 209);
+    color: white;
+    opacity: 0.5;
+}
+
+.mis {
+background-color: black;
+    color: rgba(0, 206, 209, 0.5);
+    
+}
+.tel {
+    background-color:purple;
+    color: white;
+opacity: 0.5;
+}
+.sveska {
+color:rgb(0, 206, 209);
+opacity: 0.5;
+}
+.utikac {
+    color:rgba(0, 206, 209, 0.5);
+}

@@ -1,0 +1,26 @@
+@import"variables";
+@import"mixins";
+
+.nav-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    @include color-and-bcg-color(white, #2c3e50);
+}
+
+
+header {
+    margin-top: 56px;
+    @include color-and-bcg-color(white, #18bc9c);
+}
+
+.entry {
+   background: $green-color;
+}
+
+.entry-img {
+    display: block;
+    margin: 0 auto;
+}
+

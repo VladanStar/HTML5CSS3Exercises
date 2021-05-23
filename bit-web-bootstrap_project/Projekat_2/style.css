@@ -1,0 +1,679 @@
+/*general styling*/
+
+
+
+/*fonts css*/
+@font-face {
+    font-family: 'robotoblack';
+    src: url('assets/fonts/webfontkit/roboto-black-webfont.woff2') format('woff2'),
+         url('assets/fonts/webfontkit/roboto-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'robotoblack_italic';
+    src: url('assets/fonts/webfontkit/roboto-blackitalic-webfont.woff2') format('woff2'),
+         url('assets/fonts/webfontkit/roboto-blackitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'robotobold';
+    src: url('assets/fonts/webfontkit/roboto-bold-webfont.woff2') format('woff2'),
+         url('assets/fonts/webfontkit/roboto-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'robotobold_italic';
+    src: url('assets/fonts/webfontkit/roboto-bolditalic-webfont.woff2') format('woff2'),
+         url('assets/fonts/webfontkit/roboto-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'robotoitalic';
+    src: url('assets/fonts/webfontkit/roboto-italic-webfont.woff2') format('woff2'),
+         url('assets/fonts/webfontkit/roboto-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'robotolight';
+    src: url('assets/fonts/webfontkit/roboto-light-webfont.woff2') format('woff2'),
+         url('assets/fonts/webfontkit/roboto-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'robotolight_italic';
+    src: url('assets/fonts/webfontkit/roboto-lightitalic-webfont.woff2') format('woff2'),
+         url('assets/fonts/webfontkit/roboto-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'robotomedium';
+    src: url('assets/fonts/webfontkit/roboto-medium-webfont.woff2') format('woff2'),
+         url('assets/fonts/webfontkit/roboto-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'robotomedium_italic';
+    src: url('assets/fonts/webfontkit/roboto-mediumitalic-webfont.woff2') format('woff2'),
+         url('assets/fonts/webfontkit/roboto-mediumitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'robotoregular';
+    src: url('assets/fonts/webfontkit/roboto-regular-webfont.woff2') format('woff2'),
+         url('assets/fonts/webfontkit/roboto-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'robotothin';
+    src: url('assets/fonts/webfontkit/roboto-thin-webfont.woff2') format('woff2'),
+         url('assets/fonts/webfontkit/roboto-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'robotothin_italic';
+    src: url('assets/fonts/webfontkit/roboto-thinitalic-webfont.woff2') format('woff2'),
+         url('assets/fonts/webfontkit/roboto-thinitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: "robotoregular";
+}
+
+body {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix {
+  overflow: hidden;
+}
+.clearfix::before,
+.clearfix::after {
+    content: '';
+    display: table;
+}
+
+
+
+/* header styling */
+
+
+header {
+    width: 100%;
+}
+.main-banner {
+    width: 100%;
+    background: #ffffff url("assets/images/banner3.jpg") no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 100px 80px 40px;
+}
+.main-banner h3 {
+    color: #eeeeee;
+    text-align: center;
+    padding: 40px 20px;
+    margin: 0;
+    font-weight: normal;
+    font-size: 24px;
+}
+.main-banner a {
+    display: inline-block;
+    margin: auto;
+    padding: 8px 25px;
+    background-color: #1d6fb2;
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+}
+.logo{
+    text-align: center;
+    margin-top: 20px;
+}
+.logo span {
+    display: inline-block;
+    padding: 0 10px;
+    color: #777777;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.logo span:first-child {
+    border-top: 5px solid #777777;
+    border-bottom: 5px solid #777777;
+    border-left: 5px solid #777777;
+    color: #fd9727;
+}
+
+nav ul {
+    width: 100%;
+    margin-top: 8px;
+    padding: 5px 0;
+}
+nav {
+    width: 95%;
+    margin: 0 auto;
+}
+
+nav ul li {
+    background-color: #81c3f5;
+    text-align: center;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 10px;
+    width:100%;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/* main styling */
+
+section {
+    text-align: center;
+}
+
+section article {
+    text-align: left;
+}
+
+section h1 {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.border {
+    width: 100%;
+    text-align: center;
+}
+
+.line {
+    display: inline-block;
+    height: 20px;
+    width: 40px;
+    border-top: 2px solid black;
+}
+
+.square {
+    display: inline-block;
+    width:20px;
+    height: 20px;
+    border: 2px solid black;
+    margin: 0px 10px;
+    transform: rotate(45deg);
+    position: relative;
+    top: -9px;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #56a3e0;
+}
+
+.indent {
+    width: 80%;
+    margin: 0 auto;
+}
+
+article {
+    color: #787272;
+}
+
+article q {
+    font-family: "robotoblack";
+    line-height: 28px;
+    font-size: 14px;
+}
+
+article ul {
+    list-style-image: url('assets/images/arrow.png');
+    list-style-position: inside;
+    margin-bottom: 30px;
+}
+
+article ul li {
+    line-height: 35px;
+    font-size: 14px;
+}
+
+.img, .img img {
+    width: 100%;
+}
+
+.rating {
+    padding: 20px 20px;
+    background-color: #81c3f5;
+    margin-bottom: 20px;
+}
+
+.profile-img {
+    float: left;
+    width: 20%;
+    margin-right: 20px;
+}
+
+.profile-img img {
+    width:100%;
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+.rate {
+    float: left;
+}
+
+.rating > p {
+    clear: both;
+    text-align: left;
+    color: white;
+    line-height: 36px;
+}
+
+.rate p {
+    font-weight: bold;
+    margin: 7px 0;
+}
+
+.rate-header {
+    display: flex;
+    align-items: center;
+}
+
+.rate p i {
+    color: white;
+}
+
+.green {
+    background-color: #3add9a;
+}
+
+.pink {
+    background-color: #fc5282;
+}
+
+.address {
+    color: #eee8ea;
+    padding: 30px;
+}
+
+.contact i {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.address h4 {
+    margin: 0;
+    font-weight: normal;
+    font-size: 23px;
+}
+
+.address p {
+    margin-bottom: 0;
+}
+
+.icons {
+    margin-top: 25px;
+}
+
+.blue {
+    background-color: #376ce4;
+}
+
+.light-blue {
+    background-color: #81c3f5;
+}
+
+.last {
+    padding: 0;
+}
+
+input {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 20px;
+    font-size: 22px;
+    border: 2px solid #767676;
+}
+
+textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 20px;
+    font-size: 22px;
+    border: 2px solid #767676;
+}
+
+input[type = "submit"] {
+    width:32%;
+    max-width: 150px;
+    padding: 9px;
+    background-color: #f49728;
+    border: none;
+    border-radius: 5px;
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.form {
+  padding: 0 20px;
+}
+
+/* footer styling */
+
+footer {
+  background-color: #212121;
+  text-align: center;
+  padding: 35px 0;
+}
+
+footer ul {
+  margin-bottom: 35px;
+}
+
+footer li {
+  display: inline-block;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+}
+footer p {
+  margin: 0;
+  color: white;
+  font-size: 14px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px){
+
+  /* header styling */
+
+  header {
+    position: relative;
+  }
+
+  .logo {
+    position: absolute;
+    top: 5%;
+    left: 3%;
+    margin: 0;
+  }
+
+  .logo span:first-child {
+    border-color: white;
+  }
+
+  .logo span:last-child {
+    color: white;
+  }
+
+  nav {
+    position: absolute;
+    top: 5%;
+    right: 0;
+    width: 45%;
+  }
+  nav ul {
+    margin: 0;
+    text-align: right;
+  }
+  nav ul li {
+    background-color: transparent;
+    display: inline-block;
+    padding-right: 3%;
+  }
+
+  .main-banner h3 {
+    font-size: 28px;
+  }
+
+  /* main styling */
+
+  .article-body {
+    float: left;
+    width: 50%;
+    padding-right: 1%;
+  }
+
+  .img {
+    float: left;
+    width: 50%;
+    padding-left: 1%;
+    margin-bottom: 30px;
+  }
+
+  .article-body:last-child {
+    clear: both;
+    width: 100%;
+  }
+
+  .article-body h2 {
+    margin-top: 0;
+  }
+
+  .border {
+    margin-bottom: 30px;
+  }
+
+  .rating {
+    float: left;
+    width: 48%;
+    margin-right: 4%;
+  }
+
+  .rating:nth-child(2n) {
+    margin-right: 0;
+  }
+
+  .address {
+    float: left;
+    width: 50%;
+    height: 200px;
+  }
+
+  .address .img-address,
+  .address .img-address img {
+    height: 100%;
+  }
+
+  .address.last {
+    clear: both;
+    width: 100%;
+    height: 400px;
+  }
+
+  form {
+    padding: 0 42px;
+  }
+
+  .form form input {
+    float: left;
+    width: 32%;
+    margin-right: 2%;
+  }
+
+  .form form input:nth-child(3n) {
+    margin-right: 0;
+  }
+
+  .form form textarea {
+    clear: both;
+  }
+
+  #submit {
+    float: none;
+  }
+
+}
+
+@media screen and (min-width: 1200px) {
+
+  /* header styling */
+
+  header {
+    position: relative;
+  }
+
+  .main-banner {
+      padding: 150px 80px 150px;
+  }
+
+  .main-banner h3 {
+    margin-bottom: 40px
+  }
+
+  .logo {
+    position: absolute;
+    top: 5%;
+    left: 3%;
+    margin: 0;
+  }
+
+  .logo span:first-child {
+    border-color: white;
+  }
+
+  .logo span:last-child {
+    color: white;
+  }
+
+  nav {
+    position: absolute;
+    top: 5%;
+    right: 0;
+    width: 45%;
+  }
+  nav ul {
+    margin: 0;
+    text-align: right;
+  }
+  nav ul li {
+    background-color: transparent;
+    display: inline-block;
+    padding-right: 3%;
+  }
+
+  .main-banner h3 {
+    font-size: 28px;
+  }
+
+  /* main styling */
+
+  section {
+    margin: 100px 0px;
+  }
+  .indent {
+    margin: 100px auto;
+  }
+
+  .indent:first-child {
+    max-width: 1100px;
+  }
+
+  .article-body {
+    float: left;
+    width: 34%;
+    text-align: center;
+  }
+
+  .img {
+    float: left;
+    width: 32%;
+    margin-bottom: 30px;
+    padding: 0 4%;
+  }
+
+  .article-body h2 {
+    margin-top: 0;
+  }
+
+  .border {
+    margin-bottom: 30px;
+  }
+
+  .line {
+      display: inline-block;
+      width: 100px;
+  }
+
+  .rating {
+    float: left;
+    width: 32%;
+    margin-right: 2%;
+  }
+
+  .rating:nth-child(3n) {
+    margin-right: 0;
+  }
+
+  .address {
+    float: left;
+    width: 25%;
+    height: 200px;
+  }
+
+  .address .img-address,
+  .address .img-address img {
+    height: 100%;
+  }
+
+  .address.last {
+    clear: both;
+    width: 100%;
+    height: 400px;
+  }
+
+  form {
+    padding: 0 42px;
+  }
+  .form {
+    max-width: 1100px;
+    margin: auto;
+  }
+
+  .form form input {
+    float: left;
+    width: 32%;
+    margin-right: 2%;
+  }
+
+  .form form input:nth-child(3n) {
+    margin-right: 0;
+  }
+
+  .form form textarea {
+    clear: both;
+  }
+
+  #submit {
+    float: none;
+  }
+
+}
