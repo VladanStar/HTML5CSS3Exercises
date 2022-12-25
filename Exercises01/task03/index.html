@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
@@ -9,6 +9,16 @@
     <script src='main.js'></script>
 </head>
 <body>
-    
+    <form action="">
+        <label for="kg">Unesite vase kilograme:</label>
+        <input type="number" width="200px" name="kg" id="kilo">
+        <label for="visina">Unesite vasu visinu:</label>
+        <input type="number" name="visima" width="200px" id="visina" step="0.1">
+       
+         <button id="btn" onclick="calculateBMI()">Izracunaj BMI</button> 
+        <!-- <button id="btn" >Izracunaj BMI</button> -->
+       
+       </form>
+       <p id="result">Vasa BMI je </p>
 </body>
 </html>
